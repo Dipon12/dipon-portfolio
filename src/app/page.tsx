@@ -47,8 +47,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="flex ">
-      <Sidebar items={items} />
+
       <div className="flex-1">
         <div id="introduction">
           <ProfileCard />
@@ -57,7 +56,6 @@ export default function Home() {
           <AboutMe />
         </div>
       </div>
-    </div>
   );
   // return (
   //     <main className="flex min-h-screen flex-col items-center justify-between p-24">

@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import {Work_Sans} from "next/font/google";
+import { Work_Sans } from "next/font/google";
 import "./globals.css";
+import Sidebar from "@/components/custom/SideBar";
 
 const workSans = Work_Sans({ subsets: ["latin"] });
 
@@ -15,9 +16,54 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const items = [
+    {
+      title: "Home",
+      links: [
+        { label: "Introduction", href: "#introduction" },
+        { label: "About Me", href: "#about-me" },
+      ],
+    },
+    {
+      title: "Education",
+      items: [
+        {
+          title: "Education",
+          links: [
+            { label: "University", href: "#" },
+            { label: "Collage", href: "#" },
+          ],
+        },
+        {
+          title: "Subsection 1.2",
+          items: [
+            {
+              title: "Sub-subsection 1.2.1",
+              links: [
+                { label: "Link 1.2.1.1", href: "#" },
+                { label: "Link 1.2.1.2", href: "#" },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Section 2",
+      links: [
+        { label: "Link 2.1", href: "#" },
+        { label: "Link 2.2", href: "#" },
+      ],
+    },
+  ];
   return (
     <html lang="en">
-      <body className={workSans.className}>{children}</body>
+      <body className={workSans.className}>
+        <div className="flex ">
+          <Sidebar items={items} />
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
