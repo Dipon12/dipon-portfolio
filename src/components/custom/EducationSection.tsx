@@ -30,7 +30,7 @@ return (
       <h2 className="text-2xl font-bold mb-4">{props.title}</h2>
       {
         props.items.map((item, index) => {
-            return <SingleSection title={item.title} details={item.details} />
+            return <SingleSection key={index} title={item.title} details={item.details} />
 })
     }
     </>
