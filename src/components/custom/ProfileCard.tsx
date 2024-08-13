@@ -1,8 +1,6 @@
 // src/components/ProfileCard.tsx
 import Image from "next/image";
 import React from "react";
-import { SocialIcon } from "react-social-icons";
-import SocialLogo from "social-logos";
 import ProfileName from "./ProfileName";
 
 const ProfileCard: React.FC = () => {
@@ -20,7 +18,7 @@ const ProfileCard: React.FC = () => {
     "Human Computer Interaction",
   ];
   return (
-    <div className="flex flex-col items-center md:flex-row p-4 md:p-8 md:px-16 bg-white rounded-lg shadow-lg mx-auto">
+    <div className="flex flex-col items-center md:flex-row px-4 md:p-8 md:px-16 bg-white rounded-lg shadow-lg mx-auto">
       {/* Text Content */}
       <div className="md:w-2/3 md:pr-6 flex-1 flex flex-col order-2 md:order-1">
         {/* <h1 className="text-3xl font-bold mb-2">Fatima Jahara</h1>
