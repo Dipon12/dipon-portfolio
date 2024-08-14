@@ -1,7 +1,7 @@
 // src/components/ProfileCard.tsx
 import Image from "next/image";
 import React from "react";
-import ProfileName from "@/components/custom/ProfileName";
+import ProfileName from "./ProfileName";
 
 const ProfileCard: React.FC = () => {
   const researcInterestLine = [
@@ -12,7 +12,7 @@ const ProfileCard: React.FC = () => {
   ];
   return (
     <div className="mt-16 md:mt-8">
-      <ProfileName />
+      < ProfileName/>
       <div className="flex flex-col md:flex-row gap-4 mt-8">
         <div className="w-full md:w-3/4 order-2 md:order-1">
           <article>
