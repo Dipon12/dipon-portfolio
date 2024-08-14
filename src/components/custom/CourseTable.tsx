@@ -1,12 +1,12 @@
 import React from 'react';
 
-type Course = {
+export type Course = {
   title: string;
   classSize: number;
   status: string;
 };
 
-type CourseTableProps = {
+export type CourseTableProps = {
   courses: Course[];
 };
 
@@ -17,7 +17,7 @@ const CourseTable: React.FC<CourseTableProps> = ({ courses }) => {
         <thead>
           <tr>
             <th className="px-4 py-3 text-left text-sm font-medium text-black border-b">Course Title</th>
-            <th className="px-4 py-3 text-center text-sm font-medium text-black border-b">Class Size</th>
+            {/* <th className="px-4 py-3 text-center text-sm font-medium text-black border-b">Class Size</th> */}
             <th className="px-4 py-3 text-center text-sm font-medium text-black border-b">Status</th>
           </tr>
         </thead>
@@ -25,7 +25,7 @@ const CourseTable: React.FC<CourseTableProps> = ({ courses }) => {
           {courses.map((course, index) => (
             <tr key={index} className="even:bg-gray-100">
               <td className="px-4 py-4 text-sm text-gray-800 border-b">{course.title}</td>
-              <td className="px-4 py-4 text-sm text-center text-gray-800 border-b">{course.classSize}</td>
+              {/* <td className="px-4 py-4 text-sm text-center text-gray-800 border-b">{course.classSize}</td> */}
               <td className="px-4 py-4 text-sm text-right text-gray-800 border-b">{course.status}</td>
             </tr>
           ))}
