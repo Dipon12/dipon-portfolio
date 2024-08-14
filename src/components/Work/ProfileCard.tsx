@@ -1,7 +1,6 @@
 // src/components/ProfileCard.tsx
 import Image from "next/image";
 import React from "react";
-import ProfileName from "./ProfileName";
 
 const ProfileCard: React.FC = () => {
   const researcInterestLine = [

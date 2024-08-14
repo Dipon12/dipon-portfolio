@@ -2,9 +2,9 @@ import React from "react";
 
 const AboutMe: React.FC = () => {
   return (
-    <div>
-      <div className="text-center text-5xl font-semibold mb-4">About me</div>
-      <article>
+    <article>
+      <div className="font-semibold text-lg mb-2">About me</div>
+      <p>
         I am a Senior Assessment Developer at Workera. I earned my bachelor’s in
         Computer Science and Engineering from the Chittagong University of
         Engineering and Technology (CUET), Bangladesh. I am extremely fortunate
@@ -32,8 +32,8 @@ const AboutMe: React.FC = () => {
         involves deepening our collective understanding of cognitive processes
         through AI, unraveling how machines can emulate, complement, and enhance
         human thought and interaction.
-      </article>
-    </div>
+      </p>
+    </article>
   );
 };
 

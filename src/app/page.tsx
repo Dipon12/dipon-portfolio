@@ -48,11 +48,11 @@ export default function Home() {
 
   return (
 
-      <div className="flex-1 px-32">
+      <div className="flex-1 px-4 md:px-32">
         <div id="introduction">
           <ProfileCard />
         </div>
-        <div className="mt-16" id="about-me">
+        <div className="mt-8 md:mt-16" id="about-me">
           <AboutMe />
         </div>
       </div>
