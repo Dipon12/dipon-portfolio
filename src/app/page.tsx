@@ -1,8 +1,6 @@
 "use client";
 import AboutMe from "@/components/custom/AboutMe";
 import ProfileCard from "@/components/custom/ProfileCard";
-import ProfileName from "@/components/custom/ProfileName";
-import Sidebar from "@/components/custom/SideBar";
 
 export default function Home() {
   const items = [
