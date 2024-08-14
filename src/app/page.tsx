@@ -1,6 +1,6 @@
 "use client";
 import AboutMe from "@/components/custom/AboutMe";
-import ProfileCard from "@/components/custom/ProfileCard";
+import Profile from "@/components/custom/Profile";
 
 export default function Home() {
   const items = [
@@ -48,7 +48,7 @@ export default function Home() {
 
       <div className="flex-1 px-4 md:px-32">
         <div id="introduction">
-          <ProfileCard />
+          <Profile />
         </div>
         <div className="mt-8 md:mt-16" id="about-me">
           <AboutMe />

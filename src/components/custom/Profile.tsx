@@ -1,9 +1,9 @@
 // src/components/ProfileCard.tsx
 import Image from "next/image";
 import React from "react";
-import ProfileName from "./ProfileName";
+import ProfileName from "./ProfileHeading";
 
-const ProfileCard: React.FC = () => {
+const Profile: React.FC = () => {
   const researcInterestLine = [
     "Machine Learning",
     "Natural Language Processing",
@@ -46,4 +46,4 @@ const ProfileCard: React.FC = () => {
   );
 };
 
-export default ProfileCard;
+export default Profile;

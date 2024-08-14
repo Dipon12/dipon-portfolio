@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const ProfileName = () => {
+const ProfileHeading = () => {
   const socialIcons = [
     // { name: "facebook", icon: "./facebook.svg", url: "http://facebook.com" },
     { name: "github", icon: "./github.svg", url: "http://facebook.com" },
@@ -39,4 +39,4 @@ const ProfileName = () => {
         </div>
     )
 }
-export default ProfileName;
+export default ProfileHeading;
