@@ -119,9 +119,9 @@ Digital Electronics & Pulse Techniques, and Compiler Design`,
           title: "Trainer",
           address:"Chittagong, Bangladesh",
           duration: "April, 2024 - Present",
-          courses: trainerCourses,
+          // courses: trainerCourses,
           responsibilities: [
-            `• Delivering training on Machine Learning, Deep Learning, and Computer Vision domains.`,
+            `Delivering training on Machine Learning, Deep Learning, and Computer Vision domains.`,
           ],
         },
       ],
@@ -133,16 +133,24 @@ Digital Electronics & Pulse Techniques, and Compiler Design`,
     <div className="px-4 md:px-8 lg:px-32 mt-16 md:mt-16 w-full">
       {/* <h1 className="font-bold text-4xl">Experience</h1> */}
       <div id="professionalExperience">
-        <h2 className="font-bold text-3xl mb-4">Professional Experience</h2>
+        {/* <h2 className="font-bold text-2xl md:text-3xl mb-4">Professional Experience</h2> */}
+        <h2 className="font-bold text-xl mb-2">Professional Experience</h2>
+        <div className="ml-3 md:ml-6">
         <WorkExperienceComponent experiences={professionalExperiences} />
+        </div>
       </div>
-      <div id="teachingExperience" className="mt-8">
-        <h2 className="font-bold text-3xl mb-4">Teaching Experience</h2>
+      <div id="teachingExperience" className="mt-4">
+        <h2 className="font-bold text-xl mb-2">Teaching Experience</h2>
+        <div className="ml-3 md:ml-6">
+
         <WorkExperienceComponent experiences={teachingExperiences} />
+        </div>
       </div>
-      <div id="researchExperience" className="mt-8">
-        <h2 className="font-bold text-3xl mb-4">Research Experience</h2>
+      <div id="researchExperience" className="mt-4">
+        <h2 className="font-bold text-xl mb-2">Research Experience</h2>
+        <div className="ml-3 md:ml-6">
         <WorkExperienceComponent experiences={researchExperiences} />
+        </div>
       </div>
     </div>
   );

@@ -46,7 +46,7 @@ export default function Home() {
 
   return (
 
-      <div className="flex-1 px-4 md:px-32">
+      <div className="flex-1 px-4 md:px-8">
         <div id="introduction">
           <Profile />
         </div>

@@ -33,11 +33,11 @@ export default function Education() {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto px-4 mt-16">
+    <div className="max-w-4xl mx-auto px-4 md:px-8 mt-16">
       <EducationSection id="education" title="Education" items={educationItems} />
-      <hr className="h-px my-8 bg-[#00000010] border-0 dark:bg-gray-700" />
+      <hr className="h-px my-2 md:my-4 bg-[#00000010] border-0 dark:bg-gray-700" />
       <EducationSection id = 'international-certification' title="International Certification" items={certificationItems} />
-      <hr className="h-px my-8 bg-[#00000010] border-0 dark:bg-gray-700" />
+      <hr className="h-px my-2 md:my-4 bg-[#00000010] border-0 dark:bg-gray-700" />
     </div>
   );
 }
