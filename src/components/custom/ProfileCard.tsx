@@ -18,58 +18,35 @@ const ProfileCard: React.FC = () => {
     "Human Computer Interaction",
   ];
   return (
-    <div className="flex flex-col items-center justify-center md:flex-row px-6  lg:px-16 bg-white rounded-lg mx-auto">
-      <div className="md:w-3/4 md:pr-6 flex-1 flex flex-col order-2 md:order-1">
-        <div className="mt-16">
-          <ProfileName />
+    <div className="mt-8">
+      <ProfileName />
+      <div className="flex flex-col md:flex-row gap-4 mt-8">
+        <div className="w-3/4">
+          <article>
+            <h3 className="font-semibold text-lg mb-2">Research Agenda</h3>
+            <p>
+              As enhanced devices at the edge of the network exploit artificial
+              intelligence, even novel computing challenges are raised. In my
+              current research agenda, I investigate all aspects related to
+              distributed intelligent systems for supporting cities and
+              communities, with a strong focus on optimizing decentralized and
+              self-organized systems. My research finds application in several
+              domains, among which smart city, mobility, healthcare, cultural
+              heritage and natural disasters.
+            </p>
+          </article>
         </div>
-        <p className="text-gray-800 font-semibold mb-2">
-          My research interest lies in the broad spectrum of:
-        </p>
-        <ul className="list-none mb-4">
-          {researcInterestLine.map((item) => (
-            <>
-              <li className="flex items-center mb-1">
-                <span className="text-blue-600 mr-2">✔</span>
-                {item}{" "}
-              </li>
-            </>
-          ))}
-        </ul>
-        <div className="flex space-x-3 mb-4">
-          {socialIcons.map((social) => (
-            <>
-              <a
-                href={social.url}
-                className="text-blue-600 hover:text-blue-800"
-              >
-                {/* <SocialLogo icon="linkedin" size={ 48 } /> */}
-                <Image
-                  src={social.icon}
-                  alt={social.name}
-                  width={48}
-                  height={48}
-                  objectFit="cover"
-                />
-              </a>
-            </>
-          ))}
-        </div>
-        <button className="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-800">
-          Download CV
-        </button>
-      </div>
-      {/* Image */}
-      <div className="md:w-1/4 mt-6 md:mt-0 flex-1 flex items-center justify-center order-1 md:order-2">
-        <div className="w-[16rem] h-[16rem] rounded-full overflow-hidden border-4 border-blue-600">
-          <Image
-            src="/profilePic.jpg"
-            alt="Profile Picture"
-            layout="responsive"
-            width={160}
-            height={160}
-            objectFit="cover"
-          />
+        <div className="w-1/4 grid place-items-center">
+          <div className="w-[12rem] h-[12rem] rounded-lg overflow-hidden border-4 border-primary">
+            <Image
+              src="/profilePic.jpg"
+              alt="Profile Picture"
+              layout="responsive"
+              width={160}
+              height={160}
+              objectFit="cover"
+            />
+          </div>
         </div>
       </div>
     </div>

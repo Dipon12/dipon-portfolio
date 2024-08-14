@@ -70,7 +70,7 @@ const Sidebar: React.FC<SidebarProps> = ({ items }) => {
               animate={{ x: 0 }}
               exit={{ x: "-100%" }}
               transition={{ duration: 0.3 }}
-              className={`fixed inset-y-0 left-0 z-50 w-64 bg-gray-800 text-white h-full p-4 transform md:hidden`}
+              className={`fixed inset-y-0 left-0 z-50 w-64 bg-primary text-white h-full p-4 transform md:hidden`}
             >
               {/* Close Button for Mobile */}
               <div className="flex justify-end">
@@ -92,7 +92,7 @@ const Sidebar: React.FC<SidebarProps> = ({ items }) => {
         {/* Desktop Sidebar */}
         <div className="hidden md:block">
           <div
-            className={`fixed inset-y-0 left-0 w-64 bg-gray-800 text-white h-full p-4 transform flex flex-col`}
+            className={`fixed inset-y-0 left-0 w-64 bg-primary text-white h-full p-4 transform flex flex-col`}
           >
             {/* Sidebar Items */}
             {items.map((item, index) => (
@@ -123,7 +123,7 @@ const SidebarItemComponent: React.FC<SidebarItemComponentProps> = ({
   return (
     <div className="mb-4 last:mb-0">
       <button
-        className="w-full flex justify-between items-center p-2 bg-gray-700 rounded"
+        className="w-full flex justify-between items-center p-2 bg-primary-foreground rounded"
         onClick={() => setIsOpen(!isOpen)}
       >
         <span>{item.title}</span>
@@ -148,7 +148,7 @@ const SidebarItemComponent: React.FC<SidebarItemComponentProps> = ({
             {item.links.map((link, index) => (
               <a href={link.href} key={index}>
                 <li
-                  className={`p-1 hover:bg-gray-500 rounded ${
+                  className={`p-1 hover:bg-primary-foreground rounded ${
                     index === item.links!.length - 1 ? "mb-0" : "mb-2"
                   }`}
                 >
