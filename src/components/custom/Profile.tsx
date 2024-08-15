@@ -11,8 +11,7 @@ const Profile: React.FC = () => {
     "Human Computer Interaction",
   ];
   return (
-    <div className="mt-16 md:mt-8">
-      < ProfileName/>
+    <div className="md:mt-8">
       <div className="flex flex-col md:flex-row gap-4 mt-8">
         <div className="w-full md:w-3/4 order-2 md:order-1">
           <article>

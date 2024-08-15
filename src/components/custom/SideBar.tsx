@@ -102,8 +102,7 @@ const Sidebar: React.FC<SidebarProps> = ({ items }) => {
         </div>
 
         {/* Main Content */}
-        <div className="flex-1 md:p-4 md:ml-64">
-          {/* The main content goes here */}
+        <div className="flex-1 md:p-0 md:ml-64">
         </div>
       </div>
     </>

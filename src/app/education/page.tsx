@@ -1,4 +1,34 @@
 import EducationSection from "@/components/custom/EducationSection";
+const Icon = () => {
+  return (
+    <>
+      {/* <svg
+        className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 16 12"
+      >
+        <path
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M1 5.917 5.724 10.5 15 1.5"
+        />
+      </svg> */}
+      <svg
+        className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+      >
+        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+      </svg>
+    </>
+  );
+};
 
 export default function Education() {
   const educationItems = [
@@ -31,13 +61,93 @@ export default function Education() {
       ],
     },
   ];
+  const OnlineCourses = [
+    {
+      title:
+        "Reinforcement Learning Specialization - University of Alberta (Online)",
+      link: "",
+    },
+    {
+      title: "Machine Learning - Stanford University (Online)",
+      link: "",
+    },
+    {
+      title: "Deep Learning Specialization - Deep Learning Specialization",
+      link: "",
+    },
+    {
+      title: "TensorFlow Data and Deployment Specialization - DeepLearning.ai",
+      link: "",
+    },
+    {
+      title:
+        "DeepLearning.AI TensorFlow Developer Specialization - DeepLearning.ai",
+      link: "",
+    },
+    {
+      title:
+        "CCNA Exploration 1 - IICT, Chittagong University of Engineering & Technology",
+      link: "",
+    },
+  ];
 
+  const trainingWorkShop = [
+    {
+      content:
+        "Introduction to Quantum Computing, 2020 Qiskit Global Summer School, IBM Qiskit",
+      year: "2020",
+      url: "",
+    },
+    {
+      content:
+        "Machine Learning, Deep Learning and Artificial Intelligence with Python  Bangladesh Hi-Tech Park Authority",
+      year: "2019",
+      url: "",
+    },
+    {
+      content: "Ethical Hacking and Blockchain, IEEE CUETSB",
+      year: "2019",
+      url: "",
+    },
+    {
+      content: "",
+      year: "",
+      url: "",
+    },
+  ];
   return (
-    <div className="max-w-4xl mx-auto px-4 md:px-8 mt-16">
-      <EducationSection id="education" title="Education" items={educationItems} />
+    <div className="mt-16 md:mt-8">
+      <EducationSection
+        id="education"
+        title="Education"
+        items={educationItems}
+      />
       <hr className="h-px my-2 md:my-4 bg-[#00000010] border-0 dark:bg-gray-700" />
-      <EducationSection id = 'international-certification' title="International Certification" items={certificationItems} />
+      <EducationSection
+        id="international-certification"
+        title="International Certification"
+        items={certificationItems}
+      />
       <hr className="h-px my-2 md:my-4 bg-[#00000010] border-0 dark:bg-gray-700" />
+
+      <h2 className="text-2xl font-bold mb-4 text-primary">Online Coureses</h2>
+
+      <ol className="mt-4 space-y-4 text-left text-gray-800 dark:text-gray-800">
+        {OnlineCourses.map((course) => {
+          return (
+            <>
+              <li className="flex items-center space-x-3 rtl:space-x-reverse">
+                <Icon />
+                <span>{course.title}</span>
+              </li>
+            </>
+          );
+        })}
+      </ol>
+
+      <hr className="h-px my-2 md:my-4 bg-[#00000010] border-0 dark:bg-gray-700" />
+
+      <h2 className="text-2xl font-bold mb-4 text-primary">Training & WorkShop</h2>
     </div>
   );
 }

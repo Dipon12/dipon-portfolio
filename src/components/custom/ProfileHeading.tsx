@@ -11,11 +11,13 @@ const ProfileHeading = () => {
     { name: "ResearchGate_icon_SVG", icon: "./ResearchGate_icon_SVG.svg", url: "http://facebook.com" },
   ];
     return (
-        <div className="text-[#333333]">
+        <div className="text-[#333333] flex flex-col lg:flex-row lg:justify-between">
+          <div>
           <h1 className="font-semibold text-4xl mb-1">Dipon Talukder</h1>
           <p className="text-gray-600 text-32">Senior Assessment Developer at </p>
           <p className="text-gray-600 text-32">Senior Assessment Developer at </p>
           <p className="text-gray-600 text-32">Senior Assessment Developer at </p>
+          </div>
           <div className="flex space-x-3 mt-4">
           {socialIcons.map((social) => (
             <>

@@ -130,28 +130,29 @@ Digital Electronics & Pulse Techniques, and Compiler Design`,
 
 
   return (
-    <div className="px-4 md:px-8 lg:px-32 mt-16 md:mt-16 w-full">
+    <div className="mt-16 md:mt-8">
       {/* <h1 className="font-bold text-4xl">Experience</h1> */}
       <div id="professionalExperience">
         {/* <h2 className="font-bold text-2xl md:text-3xl mb-4">Professional Experience</h2> */}
-        <h2 className="font-bold text-xl mb-2">Professional Experience</h2>
+        <h2 className="font-bold text-xl mb-2 text-primary">Professional Experience</h2>
         <div className="ml-3 md:ml-6">
         <WorkExperienceComponent experiences={professionalExperiences} />
         </div>
       </div>
-      <div id="teachingExperience" className="mt-4">
-        <h2 className="font-bold text-xl mb-2">Teaching Experience</h2>
+      <div id="researchExperience" className="mt-8">
+        <h2 className="font-bold text-xl mb-2 text-primary">Research Experience</h2>
+        <div className="ml-3 md:ml-6">
+        <WorkExperienceComponent experiences={researchExperiences} />
+        </div>
+      </div>
+      <div id="teachingExperience" className="mt-8">
+        <h2 className="font-bold text-xl mb-2 text-primary">Teaching Experience</h2>
         <div className="ml-3 md:ml-6">
 
         <WorkExperienceComponent experiences={teachingExperiences} />
         </div>
       </div>
-      <div id="researchExperience" className="mt-4">
-        <h2 className="font-bold text-xl mb-2">Research Experience</h2>
-        <div className="ml-3 md:ml-6">
-        <WorkExperienceComponent experiences={researchExperiences} />
-        </div>
-      </div>
+      
     </div>
   );
 }

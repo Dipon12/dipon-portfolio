@@ -74,11 +74,11 @@ function Publications() {
         ],
       },
   ];
-  return <div className="mx-auto px-4 md:px-8 mt-16">
+  return <div className="">
     {
         publicationPapers.map((item:PublicationsProp,index)=>{
             return <React.Fragment key={index}>
-            <h1 className="text-xl font-bold">{item.category}</h1>
+            <h1 className="text-xl font-bold text-primary">{item.category}</h1>
             <div className="ml-4 md:ml-8 my-4 md:my-6">
             <ol className="list-decimal">
             {

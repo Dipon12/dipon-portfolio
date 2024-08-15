@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { Work_Sans } from "next/font/google";
 import "./globals.css";
 import Sidebar from "@/components/custom/SideBar";
+import ProfileHeading from "@/components/custom/ProfileHeading";
 
 const workSans = Work_Sans({ subsets: ["latin"] });
 
@@ -61,7 +62,11 @@ export default function RootLayout({
       <body className={workSans.className}>
         <div className="flex ">
           <Sidebar items={items} />
-          {children}
+          <div className="flex-1 px-4 md:px-8 lg:px-16  mt-16 md:mt-8 w-full">
+            <ProfileHeading/>
+            <div className="mt-8 md:mt-4">{children}
+            </div>
+          </div>
         </div>
       </body>
     </html>

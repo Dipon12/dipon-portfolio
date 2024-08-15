@@ -46,14 +46,14 @@ export default function Home() {
 
   return (
 
-      <div className="flex-1 px-4 md:px-8">
+      <>
         <div id="introduction">
           <Profile />
         </div>
-        <div className="mt-8 md:mt-16" id="about-me">
+        <div className="mt-8" id="about-me">
           <AboutMe />
         </div>
-      </div>
+      </>
   );
   // return (
   //     <main className="flex min-h-screen flex-col items-center justify-between p-24">
