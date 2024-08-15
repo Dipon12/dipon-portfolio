@@ -83,8 +83,9 @@ function Projects() {
             <div key={index}>
               <div className="grid grid-cols-1 lg:grid-cols-[45%,55%] lg:grid-rows-[auto,1fr] gap-2 lg:gap-x-8 lg:gap-y-0 p-4">
                 {/* Image Section */}
-                <div className="order-2 lg:order-1 lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3">
-                  <img
+                <div className="order-2 lg:order-1 lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3 relative">
+                  <Image
+                  fill
                     src={project.picture}
                     alt={project.title}
                     className="object-contain w-full h-full"

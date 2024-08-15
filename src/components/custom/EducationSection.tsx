@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 type SingleSectionProps = {
   title: string;
@@ -46,14 +46,18 @@ const EducationSection: React.FC<SectionProps> = (props) => {
     <>
       <h2 className="text-2xl font-bold mb-4 text-primary">{props.title}</h2>
       {groupedItems.map((group, groupIndex) => (
-        <div key={groupIndex} className="group-wrapper flex flex-col lg:flex-row lg:gap-4 md:justify-between">
+        <div
+          key={groupIndex}
+          className="group-wrapper flex flex-col lg:flex-row lg:gap-4 md:justify-between"
+        >
           {group.map((item, itemIndex) => (
-            <div className={`${itemIndex % 2 !==0? "lg:text-right" :"lg:text-left"} lg:w-1/2`}>
-            <SingleSection
+            <div
               key={itemIndex}
-              title={item.title}
-              details={item.details}
-            />
+              className={`${
+                itemIndex % 2 !== 0 ? "lg:text-right" : "lg:text-left"
+              } lg:w-1/2`}
+            >
+              <SingleSection title={item.title} details={item.details} />
             </div>
           ))}
         </div>
