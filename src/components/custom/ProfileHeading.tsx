@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "../ui/Button";
 
 const ProfileHeading = () => {
   const socialIcons = [
@@ -18,6 +19,7 @@ const ProfileHeading = () => {
           <p className="text-gray-600 text-32">Senior Assessment Developer at </p>
           <p className="text-gray-600 text-32">Senior Assessment Developer at </p>
           </div>
+          <div className="flex flex-col gap-4 items-end">
           <div className="flex space-x-3 mt-4">
           {socialIcons.map((social) => (
             <>
@@ -37,6 +39,10 @@ const ProfileHeading = () => {
               </a>
             </>
           ))}
+        </div>
+        <Button label="Download My CV"
+        pdfUrl="https://drive.google.com/file/d/1p8fanLzuHDNKaFYvWtGuTR7h1GycNSpb/view?usp=drive_link"
+        />
         </div>
         </div>
     )

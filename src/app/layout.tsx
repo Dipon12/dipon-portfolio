@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Work_Sans } from "next/font/google";
 import "./globals.css";
-import Sidebar from "@/components/custom/SideBar";
+import Sidebar, { SidebarItem } from "@/components/custom/SideBar";
 import ProfileHeading from "@/components/custom/ProfileHeading";
 
 const workSans = Work_Sans({ subsets: ["latin"] });
@@ -17,45 +17,52 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const items = [
+  const items: SidebarItem[] = [
     {
       title: "Home",
+      href: "/",
       links: [
-        { label: "Introduction", href: "#introduction" },
-        { label: "About Me", href: "#about-me" },
+        {
+          label: "Introduction",
+          href: "/#introduction",
+        },
+        {
+          label: "About Me",
+          href: "/#about-me",
+        },
       ],
     },
     {
       title: "Education",
-      items: [
-        {
-          title: "Education",
-          links: [
-            { label: "University", href: "#" },
-            { label: "Collage", href: "#" },
-          ],
-        },
-        {
-          title: "Subsection 1.2",
-          items: [
-            {
-              title: "Sub-subsection 1.2.1",
-              links: [
-                { label: "Link 1.2.1.1", href: "#" },
-                { label: "Link 1.2.1.2", href: "#" },
-              ],
-            },
-          ],
-        },
+      href:"education",
+      links: [
+        { label: "Education", href: "education/#education" },
+        { label: "International Certification", href: "education/#international-certification" },
+        { label: "Online Coureses", href: "education/#Online-Coureses" },
+        { label: "Training & WorkShop", href: "education/#training" },
       ],
     },
     {
-      title: "Section 2",
+      title: "Experience",
+      href:"/work-experience",
       links: [
-        { label: "Link 2.1", href: "#" },
-        { label: "Link 2.2", href: "#" },
+        { label: "Professional-Experience", href: "/work-experience#professional-experience" },
+        { label: "Research Experience", href: "/work-experience#research-experience" },
+        { label: "Teaching Experience", href: "/work-experience#teaching-experience" },
       ],
     },
+    {
+      title:"Research",
+      href:"/publications",
+      links:[
+        {href:"/publications#peer-reviewed-conference",label:"Peer Reviewed Conference"},
+        {href:"/publications#book-chapter",label:"Book Chapter"},
+        {href:"/publications#in-progress",label:"In Progress"}
+      ]
+    },
+    {title:'Projects',
+      href:"/projects"
+    }
   ];
   return (
     <html lang="en">
@@ -63,9 +70,8 @@ export default function RootLayout({
         <div className="flex ">
           <Sidebar items={items} />
           <div className="flex-1 px-4 md:px-8 lg:px-16  mt-16 md:mt-8 w-full">
-            <ProfileHeading/>
-            <div className="mt-8 md:mt-4">{children}
-            </div>
+            <ProfileHeading />
+            <div className="mt-8 md:mt-4">{children}</div>
           </div>
         </div>
       </body>

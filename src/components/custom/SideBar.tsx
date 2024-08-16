@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -8,8 +8,9 @@ interface Link {
   href: string;
 }
 
-interface SidebarItem {
+export interface SidebarItem {
   title: string;
+  href?: string;
   links?: Link[];
   items?: SidebarItem[];
 }
@@ -50,7 +51,6 @@ const Sidebar: React.FC<SidebarProps> = ({ items }) => {
             initial={{ x: "200%" }}
             animate={{ x: 0 }}
             exit={{ x: "200%" }}
-            // transition={{ duration: 0.3 }}
             className="absolute right-5 top-5 md:hidden"
             onClick={toggleSidebar}
           >
@@ -102,8 +102,7 @@ const Sidebar: React.FC<SidebarProps> = ({ items }) => {
         </div>
 
         {/* Main Content */}
-        <div className="flex-1 md:p-0 md:ml-64">
-        </div>
+        <div className="flex-1 md:p-0 md:ml-64"></div>
       </div>
     </>
   );
@@ -121,13 +120,25 @@ const SidebarItemComponent: React.FC<SidebarItemComponentProps> = ({
 
   return (
     <div className="mb-4 last:mb-0">
-      <button
-        className="w-full flex justify-between items-center p-2 bg-primary-foreground rounded"
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        <span>{item.title}</span>
-        {item.items || item.links ? <span>{isOpen ? "-" : "+"}</span> : null}
-      </button>
+      {item.href ? (
+        <div className="w-full block">
+          <button
+            className="w-full flex justify-between items-center p-2 bg-primary-foreground rounded"
+            // onClick={() => setIsOpen(!isOpen)}
+          >
+            <a href={item.href}><span>{item.title}</span></a>
+            {item.items || item.links ? <span onClick={() => setIsOpen(!isOpen)}>{isOpen ? "-" : "+"}</span> : null}
+          </button>
+        </div>
+      ) : (
+        <button
+          className="w-full flex justify-between items-center p-2 bg-primary-foreground rounded"
+          // onClick={() => setIsOpen(!isOpen)}
+        >
+          <span>{item.title}</span>
+          {item.items || item.links ? <span onClick={() => setIsOpen(!isOpen)}>{isOpen ? "-" : "+"}</span> : null}
+        </button>
+      )}
 
       <motion.div
         initial={{ height: 0, opacity: 0 }}
@@ -145,16 +156,16 @@ const SidebarItemComponent: React.FC<SidebarItemComponentProps> = ({
         {item.links && (
           <ul className="mt-1 pl-4">
             {item.links.map((link, index) => (
-              <a href={link.href} key={index}>
-                <li
-                  className={`p-1 hover:bg-primary-foreground rounded ${
-                    index === item.links!.length - 1 ? "mb-0" : "mb-2"
-                  }`}
-                >
-                  {/* <a href={link.href}>}</a> */}
+              <li
+                className={`p-1 hover:bg-primary-foreground rounded ${
+                  index === item.links!.length - 1 ? "mb-0" : "mb-2"
+                }`}
+                key={index}
+              >
+                <a href={link.href} className="text-white">
                   {link.label}
-                </li>
-              </a>
+                </a>
+              </li>
             ))}
           </ul>
         )}

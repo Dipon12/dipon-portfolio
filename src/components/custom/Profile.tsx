@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import ProfileName from "./ProfileHeading";
+import Heading from "../ui/Heading";
 
 const Profile: React.FC = () => {
   const researcInterestLine = [
@@ -15,7 +16,8 @@ const Profile: React.FC = () => {
       <div className="flex flex-col md:flex-row gap-4 mt-8">
         <div className="w-full md:w-3/4 order-2 md:order-1">
           <article>
-            <h3 className="font-semibold text-lg mb-2">Research Agenda</h3>
+            {/* <h3 className="font-semibold text-lg mb-2">Research Agenda</h3> */}
+            <Heading title={'Research Agenda'}/>
             <p>
               As enhanced devices at the edge of the network exploit artificial
               intelligence, even novel computing challenges are raised. In my

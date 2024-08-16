@@ -1,9 +1,11 @@
 import React from "react";
+import Heading from "../ui/Heading";
 
 const AboutMe: React.FC = () => {
   return (
     <article>
-      <div className="font-semibold text-lg mb-2">About me</div>
+      {/* <div className="font-semibold text-lg mb-2">About me</div> */}
+      <Heading title={'About Me'}/>
       <p>
         I am a Senior Assessment Developer at Workera. I earned my bachelor’s in
         Computer Science and Engineering from the Chittagong University of

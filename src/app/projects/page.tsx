@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Heading from "@/components/ui/Heading";
 const LinkIcon = () => (
   <svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"  
 	 width="24px" height="24px" viewBox="0 0 72 72" enable-background="new 0 0 72 72" >
@@ -76,7 +77,8 @@ function Projects() {
 
   return (
     <div className="mt-8 md:mt-16">
-      <h1 className="text-2xl font-bold text-left text-primary mb-6">Projects</h1>
+      {/* <h1 className="text-2xl font-bold text-left text-primary mb-6">Projects</h1> */}
+      <Heading title={'Projects'}/>
       <div className="flex flex-col gap-y-10">
         {selectedProjects.map((project, index) => {
           return (

@@ -1,4 +1,5 @@
 import React from "react";
+import Heading from "../ui/Heading";
 
 type SingleSectionProps = {
   title: string;
@@ -44,7 +45,8 @@ const EducationSection: React.FC<SectionProps> = (props) => {
 
   return (
     <>
-      <h2 className="text-2xl font-bold mb-4 text-primary">{props.title}</h2>
+      <Heading title={props.title} />
+
       {groupedItems.map((group, groupIndex) => (
         <div
           key={groupIndex}

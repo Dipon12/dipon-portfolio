@@ -1,5 +1,6 @@
 import CourseTable from "@/components/custom/CourseTable";
 import WorkExperienceComponent from "@/components/custom/WorkExperienceComponent";
+import Heading from "@/components/ui/Heading";
 
 export default function WorkExperience() {
   const courses = [
@@ -131,24 +132,21 @@ Digital Electronics & Pulse Techniques, and Compiler Design`,
 
   return (
     <div className="mt-16 md:mt-8">
-      {/* <h1 className="font-bold text-4xl">Experience</h1> */}
-      <div id="professionalExperience">
-        {/* <h2 className="font-bold text-2xl md:text-3xl mb-4">Professional Experience</h2> */}
-        <h2 className="font-bold text-xl mb-2 text-primary">Professional Experience</h2>
+      <div id="professional-experience">
+        <Heading title='Professional Experience' />
         <div className="ml-3 md:ml-6">
         <WorkExperienceComponent experiences={professionalExperiences} />
         </div>
       </div>
-      <div id="researchExperience" className="mt-8">
-        <h2 className="font-bold text-xl mb-2 text-primary">Research Experience</h2>
+      <div id="research-experience" className="mt-8">
+        <Heading title='Research Experience' />
         <div className="ml-3 md:ml-6">
         <WorkExperienceComponent experiences={researchExperiences} />
         </div>
       </div>
-      <div id="teachingExperience" className="mt-8">
-        <h2 className="font-bold text-xl mb-2 text-primary">Teaching Experience</h2>
+      <div id="teaching-experience" className="mt-8">
+        <Heading title='Teaching Experience' />
         <div className="ml-3 md:ml-6">
-
         <WorkExperienceComponent experiences={teachingExperiences} />
         </div>
       </div>
