@@ -1,6 +1,9 @@
-"use client"
+'use client';
+
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { usePathname } from 'next/navigation';
+
 
 // Define types for the Sidebar structure
 interface Link {
@@ -70,7 +73,7 @@ const Sidebar: React.FC<SidebarProps> = ({ items }) => {
               animate={{ x: 0 }}
               exit={{ x: "-100%" }}
               transition={{ duration: 0.3 }}
-              className={`fixed inset-y-0 left-0 z-50 w-64 bg-primary text-white h-full p-4 transform md:hidden`}
+              className={`fixed inset-y-0 left-0 z-50 w-64 bg-primary text-white h-full p-4 transform md:hidden overflow-y-auto scrollbar-hide`}
             >
               {/* Close Button for Mobile */}
               <div className="flex justify-end">
@@ -92,7 +95,7 @@ const Sidebar: React.FC<SidebarProps> = ({ items }) => {
         {/* Desktop Sidebar */}
         <div className="hidden md:block">
           <div
-            className={`fixed inset-y-0 left-0 w-64 bg-primary text-white h-full p-4 transform flex flex-col`}
+            className={`fixed inset-y-0 left-0 w-64 bg-primary text-white h-full p-4 transform flex flex-col overflow-y-auto scrollbar-hide`}
           >
             {/* Sidebar Items */}
             {items.map((item, index) => (
@@ -116,7 +119,10 @@ interface SidebarItemComponentProps {
 const SidebarItemComponent: React.FC<SidebarItemComponentProps> = ({
   item,
 }) => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const pathname = usePathname();
+  console.log(pathname,item.href)
+
+  const [isOpen, setIsOpen] = useState<boolean>(pathname === item.href);
 
   return (
     <div className="mb-4 last:mb-0">
@@ -124,7 +130,6 @@ const SidebarItemComponent: React.FC<SidebarItemComponentProps> = ({
         <div className="w-full block">
           <button
             className="w-full flex justify-between items-center p-2 bg-primary-foreground rounded"
-            // onClick={() => setIsOpen(!isOpen)}
           >
             <a href={item.href}><span>{item.title}</span></a>
             {item.items || item.links ? <span onClick={() => setIsOpen(!isOpen)}>{isOpen ? "-" : "+"}</span> : null}
@@ -133,7 +138,6 @@ const SidebarItemComponent: React.FC<SidebarItemComponentProps> = ({
       ) : (
         <button
           className="w-full flex justify-between items-center p-2 bg-primary-foreground rounded"
-          // onClick={() => setIsOpen(!isOpen)}
         >
           <span>{item.title}</span>
           {item.items || item.links ? <span onClick={() => setIsOpen(!isOpen)}>{isOpen ? "-" : "+"}</span> : null}

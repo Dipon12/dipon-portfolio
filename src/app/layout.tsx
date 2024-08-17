@@ -6,6 +6,8 @@ import Sidebar, { SidebarItem } from "@/components/custom/SideBar";
 import ProfileHeading from "@/components/custom/ProfileHeading";
 import { Toaster } from "@/components/ui/toaster";
 import Head from "next/head";
+import PaginationButtons from "@/components/custom/PaginationButtons ";
+import sideBarData from "@/Data/layout";
 
 const workSans = Work_Sans({ subsets: ["latin"] });
 const siteUrl = "http://dipon.netlify.app";
@@ -41,67 +43,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const items: SidebarItem[] = [
-    {
-      title: "Home",
-      href: "/",
-      links: [
-        {
-          label: "Introduction",
-          href: "/#introduction",
-        },
-        {
-          label: "About Me",
-          href: "/#about-me",
-        },
-      ],
-    },
-    {
-      title: "Education",
-      href: "education",
-      links: [
-        { label: "Education", href: "education/#education" },
-        {
-          label: "International Certification",
-          href: "education/#international-certification",
-        },
-        { label: "Online Coureses", href: "education/#Online-Coureses" },
-        { label: "Training & WorkShop", href: "education/#training" },
-      ],
-    },
-    {
-      title: "Experience",
-      href: "/work-experience",
-      links: [
-        {
-          label: "Professional-Experience",
-          href: "/work-experience#professional-experience",
-        },
-        {
-          label: "Research Experience",
-          href: "/work-experience#research-experience",
-        },
-        {
-          label: "Teaching Experience",
-          href: "/work-experience#teaching-experience",
-        },
-      ],
-    },
-    {
-      title: "Research",
-      href: "/publications",
-      links: [
-        {
-          href: "/publications#peer-reviewed-conference",
-          label: "Peer Reviewed Conference",
-        },
-        { href: "/publications#book-chapter", label: "Book Chapter" },
-        { href: "/publications#in-progress", label: "In Progress" },
-      ],
-    },
-    { title: "Projects", href: "/projects" },
-    { title: "Contact", href: "/contact" },
-  ];
+  const {sideBaritems} = sideBarData;
   return (
     <html lang="en">
       <Head>
@@ -125,11 +67,15 @@ export default function RootLayout({
       </Head>{" "}
       <body className={workSans.className}>
         <div className="flex ">
-          <Sidebar items={items} />
+          <Sidebar items={sideBaritems} />
           <div className="flex-1 px-4 md:px-8 lg:px-16  mt-16 md:mt-8 w-full">
             <ProfileHeading />
             <div className="mt-8 md:mt-4">{children}</div>
+            <div className="py-10">
+        <PaginationButtons />
+      </div>
           </div>
+
         </div>
         <Toaster />
       </body>

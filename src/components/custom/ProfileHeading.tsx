@@ -1,23 +1,17 @@
 import Image from "next/image";
 import Button from "../ui/Button";
-
+import profileHeadingData from "@/Data/profileHeadingData";
+import parse from 'html-react-parser';
 const ProfileHeading = () => {
-  const socialIcons = [
-    // { name: "facebook", icon: "./facebook.svg", url: "http://facebook.com" },
-    { name: "github", icon: "./github.svg", url: "http://facebook.com" },
-    { name: "linkedIn", icon: "./linkedIn.svg", url: "http://facebook.com" },
-    { name: "skype", icon: "./skype.svg", url: "http://facebook.com" },
-    { name: "twitterx", icon: "./twitterx.svg", url: "http://facebook.com" },
-    { name: "Google_Scholar_logo", icon: "./Google_Scholar_logo.svg", url: "http://facebook.com" },
-    { name: "ResearchGate_icon_SVG", icon: "./ResearchGate_icon_SVG.svg", url: "http://facebook.com" },
-  ];
+  const {name,socialIcons,designations} = profileHeadingData;
     return (
         <div className="text-[#333333] flex flex-col lg:flex-row lg:justify-between">
           <div>
-          <h1 className="font-semibold text-4xl mb-1">Dipon Talukder</h1>
-          <p className="text-gray-600 text-32">Senior Assessment Developer at </p>
-          <p className="text-gray-600 text-32">Senior Assessment Developer at </p>
-          <p className="text-gray-600 text-32">Senior Assessment Developer at </p>
+          <h1 className="font-semibold text-4xl mb-1">{name}</h1>
+          {
+            designations.map(designation => <p className="text-gray-600 text-32">{parse(designation)}</p>)
+          }
+
           </div>
           <div className="flex flex-col gap-4 items-center md:items-start lg:items-end">
           <div className="flex space-x-3 mt-4">

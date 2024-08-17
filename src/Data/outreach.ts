@@ -1,0 +1,58 @@
+const awardData = [
+    {
+        'title':"Brilliant Award",
+        "year":"2023",
+        "url":""
+    },
+    {
+        'title':"Top 25 (among approx. 800 teams), AI for Bangla Competition 2021, ICT Ministry",
+        "year":"2021",
+        "url":""
+    },
+    {
+        'title':"Top 40 (among approx. 200 teams), PTAK Case Competition 2021, ISCEA Bangladesh",
+        "year":"2021",
+        "url":""
+    },
+    {
+        'title':"Bangladesh-Japan ICT Engineers’ Training Program Scholarship (on Merit), JICA",
+        "year":"2019",
+        "url":""
+    },
+    {
+        'title':"Technical Scholarship (on Merit), Bangladesh Technical Education Board",
+        "year":"2017",
+        "url":""
+    },
+    {
+        'title':"Primary School Certificate General Scholarship, Bangladesh Education Board",
+        "year":"2007",
+        "url":""
+    },
+]
+
+const volunterringData = [
+    {
+        'title':"Beta Tester, Coursera",
+        "year":"2022",
+        "url":""
+    },
+    {
+        'title':"Community Leader & Mentor, Workera.ai Learner’s Communit",
+        "year":"2021",
+        "url":""
+    },
+]
+
+const outReachPageData = [
+    {
+        category:'Awards',
+        data:awardData,
+    },
+    {
+        category:'VOLUNTEERING',
+        data:volunterringData,
+    }
+]
+
+export default outReachPageData;

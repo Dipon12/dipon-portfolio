@@ -4,6 +4,7 @@ import parse from 'html-react-parser';
 
 type Experience = {
   company: string;
+  url?: string;
   roles: {
     title: string;
     address?: string;
@@ -21,12 +22,12 @@ const WorkExperienceComponent: React.FC<{ experiences: Experience[] }> = ({
     <div className="space-y-4">
       {experiences.map((experience, index) => (
         <div key={index} className="border-b border-gray-300 pb-6">
-          <h3 className="text-lg font-semibold">{experience.company}</h3>
+          <a href={experience.url}><h3 className="text-lg font-semibold text-primary/70">{experience.company}</h3></a>
           <div className="mt-2 space-y-6">
             {experience.roles.map((role, roleIndex) => (
               <>
                 <div key={roleIndex} className="flex justify-between">
-                  <div className="">
+                  <div className="ml-5">
                     <h4 className="text-sm  font-semibold italic">{role.title}</h4>
                     <ul className=" text-xs list-disc list-inside mt-1 space-y-1 text-gray-900">
                       {role.responsibilities.map((responsibility, i) => (

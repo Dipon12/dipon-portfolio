@@ -99,3 +99,12 @@ p a:hover {
   word-break: break-all; /* Break words if they're too long */
   text-overflow: ellipsis;
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
