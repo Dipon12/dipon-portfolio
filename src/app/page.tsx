@@ -1,66 +1,18 @@
 "use client";
 import AboutMe from "@/components/custom/AboutMe";
 import Profile from "@/components/custom/Profile";
-
+import { Homedata } from "@/Data/home";
 export default function Home() {
-  const items = [
-    {
-      title: "Home",
-      links: [
-        { label: "Introduction", href: "#introduction" },
-        { label: "About Me", href: "#about-me" },
-      ],
-    },
-    {
-      title: "Home",
-      items: [
-        {
-          title: "Subsection 1.1",
-          links: [
-            { label: "Link 1.1.1", href: "#" },
-            { label: "Link 1.1.2", href: "#" },
-          ],
-        },
-        {
-          title: "Subsection 1.2",
-          items: [
-            {
-              title: "Sub-subsection 1.2.1",
-              links: [
-                { label: "Link 1.2.1.1", href: "#" },
-                { label: "Link 1.2.1.2", href: "#" },
-              ],
-            },
-          ],
-        },
-      ],
-    },
-    {
-      title: "Section 2",
-      links: [
-        { label: "Link 2.1", href: "#" },
-        { label: "Link 2.2", href: "#" },
-      ],
-    },
-  ];
 
   return (
 
       <>
         <div id="introduction">
-          <Profile />
+          <Profile title={Homedata.firstTitle} description={Homedata.researchAgenda}/>
         </div>
         <div className="mt-8" id="about-me">
-          <AboutMe />
+          <AboutMe title={Homedata.secondTitle} description={Homedata.aboutMe}/>
         </div>
       </>
   );
-  // return (
-  //     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-  //         <div>
-  //             <ProfileName/>
-
-  //         </div>
-  //     </main>
-  // );
 }

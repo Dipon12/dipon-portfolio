@@ -3,8 +3,14 @@ import Image from "next/image";
 import React from "react";
 import ProfileName from "./ProfileHeading";
 import Heading from "../ui/Heading";
-
-const Profile: React.FC = () => {
+type ProfileProps = {
+  title: string,
+  description: string,
+}
+const Profile= ({
+  title,
+  description,
+}: ProfileProps) => {
   const researcInterestLine = [
     "Machine Learning",
     "Natural Language Processing",
@@ -17,12 +23,12 @@ const Profile: React.FC = () => {
         <div className="w-full md:w-3/4 order-2 md:order-1">
           <article>
             {/* <h3 className="font-semibold text-lg mb-2">Research Agenda</h3> */}
-            <Heading title={'Research Agenda'}/>
+            <Heading title={"Research Agenda"} />
             <p>
               As enhanced devices at the edge of the network exploit artificial
               intelligence, even novel computing challenges are raised. In my
-              current research agenda, I <a>investigate</a> all aspects related to
-              distributed intelligent systems for supporting cities and
+              current research agenda, I <a>investigate</a> all aspects related
+              to distributed intelligent systems for supporting cities and
               communities, with a strong focus on optimizing decentralized and
               self-organized systems. My research finds application in several
               domains, among which smart city, mobility, healthcare, cultural
