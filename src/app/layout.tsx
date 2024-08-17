@@ -4,6 +4,7 @@ import { Work_Sans } from "next/font/google";
 import "./globals.css";
 import Sidebar, { SidebarItem } from "@/components/custom/SideBar";
 import ProfileHeading from "@/components/custom/ProfileHeading";
+import { Toaster } from "@/components/ui/toaster"
 
 const workSans = Work_Sans({ subsets: ["latin"] });
 
@@ -62,7 +63,10 @@ export default function RootLayout({
     },
     {title:'Projects',
       href:"/projects"
-    }
+    },
+    {title:'Contact',
+      href:"/contact"
+    },
   ];
   return (
     <html lang="en">
@@ -74,6 +78,7 @@ export default function RootLayout({
             <div className="mt-8 md:mt-4">{children}</div>
           </div>
         </div>
+        <Toaster/>
       </body>
     </html>
   );
