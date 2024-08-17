@@ -6,14 +6,14 @@ const OutReach = () => {
     return (
         <>
         {
-         outReachPageData.map(outReachData => 
-            <>
-            <div id={convertToSlug(outReachData.category)} className="mb-10">
+         outReachPageData.map((outReachData,index) => 
+            
+            <div key={convertToSlug(outReachData.category)} id={convertToSlug(outReachData.category)} className="mb-10">
             <Heading className="" title={outReachData.category}/>
             <div className="ml-5">
                 <ul>
-                    { outReachData.data.map(awardData =>(
-                        <a href={awardData.url}><li className="my-2">
+                    { outReachData.data.map((awardData,index) =>(
+                        <a href={awardData.url} key={index}><li className="my-2">
                             <span className="font-semibold mr-5">{awardData.year}</span>
                             <span>{parse(awardData.title)}</span>
 
@@ -23,7 +23,7 @@ const OutReach = () => {
                 </ul>
             </div>
         </div>
-            </>
+            
          )   
         }
         

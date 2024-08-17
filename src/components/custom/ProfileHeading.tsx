@@ -9,7 +9,7 @@ const ProfileHeading = () => {
           <div>
           <h1 className="font-semibold text-4xl mb-1">{name}</h1>
           {
-            designations.map(designation => <p className="text-gray-600 text-32">{parse(designation)}</p>)
+            designations.map((designation,index) => <p key={index} className="text-gray-600 text-32">{parse(designation)}</p>)
           }
 
           </div>
