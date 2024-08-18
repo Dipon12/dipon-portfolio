@@ -7,7 +7,7 @@ const ProfileHeading = () => {
     return (
         <div className="text-[#333333] flex flex-col lg:flex-row lg:justify-between">
           <div>
-          <h1 className="font-semibold text-4xl mb-1">{name}</h1>
+          <h1 className="font-bold text-4xl mb-2 text-primary">{name}</h1>
           {
             designations.map((designation,index) => <p key={index} className="text-gray-600 text-32">{parse(designation)}</p>)
           }

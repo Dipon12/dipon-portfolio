@@ -13,7 +13,7 @@ function Projects() {
           return (
             <>
                 <li className="">
-                  <span className="font-bold text-sm text-primary/60">{item.category}: </span>
+                  <span className="font-semibold text-sm text-primary/80">{item.category}: </span>
                   <span>{item.skills?.join(', ')}</span>
                   {/* {
                     item.skills?.map((skill)=><></>)
@@ -59,6 +59,7 @@ function Projects() {
 
                   {/* Description Section */}
                   <div className="order-3 lg:order-3 lg:col-start-2 lg:col-end-3 lg:row-start-2 lg:row-end-3">
+                    <p><span className="text-primary font-semibold">Tech-stack: </span>{project.techStack}</p>
                     <p className="text-gray-600">{project.LongDescription}</p>
                   </div>
                 </div>

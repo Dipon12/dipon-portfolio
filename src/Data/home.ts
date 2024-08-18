@@ -19,7 +19,7 @@ export const Homedata = {
         Student at CUET NLP lab, where I had the chance to work with on
         developing benchmark corpus and frameworks for Bangla Natural Language
         Processing. I am a professional member of IEEE and the former Vice
-        Chairman of IEEE CUET Women In Engineering Affinity Group. My research
+        Chairman of <a href="www.facebook.com">IEEE CUET Women</a> In Engineering Affinity Group. My research
         interest navigates the broad intersection of Machine Learning and
         Natural Language Processing. My interest lies in knowledge
         representation and commonsense reasoning, especially within multilingual

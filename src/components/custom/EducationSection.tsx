@@ -14,7 +14,7 @@ type SectionProps = {
 
 const SingleSection: React.FC<SingleSectionProps> = ({ title, details }) => {
   return (
-    <div className="mt-4 md:mt-0">
+    <div className="block h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
       <h3 className="text-lg font-semibold">{title}</h3>
       <ul className="list-none list-inside">
         {details.map((item, index) => (
@@ -50,7 +50,7 @@ const EducationSection: React.FC<SectionProps> = (props) => {
       {groupedItems.map((group, groupIndex) => (
         <div
           key={groupIndex}
-          className="group-wrapper flex flex-col lg:flex-row lg:gap-4 md:justify-between"
+          className="group-wrapper flex flex-col lg:flex-row gap-4 lg:justify-between"
         >
           {group.map((item, itemIndex) => (
             <div
