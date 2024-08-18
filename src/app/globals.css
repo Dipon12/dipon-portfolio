@@ -115,3 +115,6 @@ p a:hover {
 .clustrmaps-widget-v2{
   display:none !important;
 }
+a#clustrmaps-widget-v2, #clustrmaps-widget-v2 {
+  display:none !important;
+}
