@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import Script from "next/script";
 import { Work_Sans } from "next/font/google";
 import "./globals.css";
 import Sidebar, { SidebarItem } from "@/components/custom/SideBar";
@@ -13,12 +13,14 @@ const workSans = Work_Sans({ subsets: ["latin"] });
 const siteUrl = "http://dipon.netlify.app";
 export const metadata: Metadata = {
   title: "Dipon Talukder Dhruvo",
-  description: "Explore the academic portfolio of Dipon Talukder, a graduate student specializing in ML,AI. Discover research projects, publications, and professional achievements in ML AI, showcasing a commitment to advancing knowledge and contributing to the field.",
+  description:
+    "Explore the academic portfolio of Dipon Talukder, a graduate student specializing in ML,AI. Discover research projects, publications, and professional achievements in ML AI, showcasing a commitment to advancing knowledge and contributing to the field.",
   keywords: "DiponTalukder,Dipon,Dipon,Dipon,Dip",
   robots: "index, follow",
   openGraph: {
     title: "Dipon Talukder Dhruvo",
-    description: "Explore the academic portfolio of Dipon Talukder, a graduate student specializing in ML,AI. Discover research projects, publications, and professional achievements in ML AI, showcasing a commitment to advancing knowledge and contributing to the field.",
+    description:
+      "Explore the academic portfolio of Dipon Talukder, a graduate student specializing in ML,AI. Discover research projects, publications, and professional achievements in ML AI, showcasing a commitment to advancing knowledge and contributing to the field.",
     url: siteUrl,
     images: [
       {
@@ -43,7 +45,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const {sideBaritems} = sideBarData;
+  const { sideBaritems } = sideBarData;
   return (
     <html lang="en">
       <Head>
@@ -72,13 +74,16 @@ export default function RootLayout({
             <ProfileHeading />
             <div className="mt-8 md:mt-16">{children}</div>
             <div className="py-10">
-        <PaginationButtons />
-      </div>
+              <PaginationButtons />
+            </div>
           </div>
-
         </div>
         <Toaster />
-        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=w8Eh2mRJQmsa0rf2sLopGxCJtHJdyEmnLfeyme6dAM8&cl=ffffff&w=a"></script>
+        <Script
+          type="text/javascript"
+          id="clustrmaps"
+          src="//clustrmaps.com/map_v2.js?d=w8Eh2mRJQmsa0rf2sLopGxCJtHJdyEmnLfeyme6dAM8&cl=ffffff&w=a"
+        />
       </body>
     </html>
   );
