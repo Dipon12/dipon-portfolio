@@ -12,7 +12,7 @@ const courses = [
       status: "Running (Oct '23-)",
     },
     {
-      title: "Compiler Designing",
+      title: "Digital Electronics and Pulse technologies CSE-124",
       classSize: 125,
       status: "Completed (May '23-Sep '23)",
     },

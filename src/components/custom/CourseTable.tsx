@@ -13,7 +13,7 @@ export type CourseTableProps = {
 const CourseTable: React.FC<CourseTableProps> = ({ courses }) => {
   return (
     <div className="overflow-x-auto">
-      <table className="min-w-full bg-white border border-gray-300">
+      <table className="max-w-6xl mx-auto bg-white border border-gray-300">
         <thead>
           <tr>
             <th className="px-4 py-3 text-left text-sm font-medium text-black border-b">Course Title</th>
