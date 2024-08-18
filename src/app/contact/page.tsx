@@ -31,10 +31,10 @@ export default function Home() {
                   Mailing Address
                 </h3>
                 <p className="text-gray-600 dark:text-slate-400">
-                  1230 Maecenas Street Donec Road
+                  Hillview R/A
                 </p>
                 <p className="text-gray-600 dark:text-slate-400">
-                  New York, EEUU
+                  Chittagong, Bangladesh
                 </p>
               </div>
             </li>
