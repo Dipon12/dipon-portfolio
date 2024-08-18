@@ -108,3 +108,7 @@ p a:hover {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+.clustrmaps-map-container{
+  display:none !important;
+}
