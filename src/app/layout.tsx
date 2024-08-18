@@ -70,7 +70,7 @@ export default function RootLayout({
           <Sidebar items={sideBaritems} />
           <div className="flex-1 px-4 md:px-8 lg:px-16  mt-16 md:mt-8 w-full">
             <ProfileHeading />
-            <div className="mt-8 md:mt-4">{children}</div>
+            <div className="mt-8 md:mt-16">{children}</div>
             <div className="py-10">
         <PaginationButtons />
       </div>
@@ -78,6 +78,7 @@ export default function RootLayout({
 
         </div>
         <Toaster />
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=w8Eh2mRJQmsa0rf2sLopGxCJtHJdyEmnLfeyme6dAM8&cl=ffffff&w=a"></script>
       </body>
     </html>
   );

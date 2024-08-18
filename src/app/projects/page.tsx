@@ -5,7 +5,7 @@ import projectPageData from "@/Data/projects";
 
 function Projects() {
   return (
-    <div className="mt-8 md:mt-16">
+    <div >
       <div className="technical-skill mb-8">
         <Heading title="Technical Skills" />
         <ol className="mt-4 space-y-2 text-left">
