@@ -4,16 +4,13 @@ const educationItems = [
       details: [
         "<strong class='text-[#559988]'>B.Sc. in Computer Science and Engineering</strong>",
         "February 2016 - June 2021",
-        "<b>CGPA: 3.80 (with Honors)</b> / 4.00",
-        "Merit Position: 4th / 120",
       ],
     },
     {
-      title: "Brahmanbaria Govt. College",
+      title: "Hajera Taju College",
       details: [
         "Higher Secondary School Certificate (HSC)",
         "June 2013 - May 2015",
-        "GPA: 5.00 out of 5.00",
       ],
     },
   ];
@@ -22,9 +19,9 @@ const educationItems = [
     {
       title: "Language Proficiency Test-IELTS",
       details: [
-        "Score: 7.5 (Score Card)",
-        "Test taken: Sep 23, 2021",
-        "Listening - 8.5 | Reading - 8.0 | Speaking - 7.5 | Writing - 6.5",
+        "Score: 8 (Score Card)",
+        "Test taken: April 15, 2024",
+        "Listening - 8.0 | Reading - 9.0 | Speaking - 7.0 | Writing - 7.0",
       ],
     },
   ];
@@ -53,7 +50,7 @@ const educationItems = [
     },
     {
       title:
-        "CCNA Exploration 1 - IICT, Chittagong University of Engineering & Technology",
+        "Introduction to Quantum Computing, - 2020 Qiskit Global Summer School, IBM Qiskit",
       link: "",
     },
   ];
@@ -61,8 +58,8 @@ const educationItems = [
   const trainingWorkShop = [
     {
       content:
-        "Introduction to Quantum Computing, 2020 Qiskit Global Summer School, IBM Qiskit",
-      year: "2020",
+        "Cisco CCNA Exploration 1 - IICT, Chittagong University of Engineering & Technology",
+      year: "2018",
       url: "",
     },
     {

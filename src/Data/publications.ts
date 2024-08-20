@@ -8,23 +8,31 @@ type paper = {
 
   const publicationPapers: PublicationsProp[] = [
     {
-      category: "Peer Reviewed Conference",
+      category: "Peer Reviewed Publications",
       papers: [
         {
           title:
-            `Sandra Schüssler, Julia Zuschnegg, Lucas Paletta, Gerald Lodron, Josef Steiner, Sandra Pansy-Resch, Dimitrios Prodromou, Sebastian Brunsch, Lorenzo Carnevale, Thomas Orgel, Michael Schneeberger, Silvia Russegger, Maria Fellner, Lara Lammer, Magdalena Holter. <a href=""> Effects of coach robot pepper versus tablet training on psychosocial and physical outcomes of persons with dementia: A mixed-methods study”. Alzheimer’s & Dementia, vol. 17, issu S11, ISSN: 1552-5279 (December 2021) (doi: 10.1002/alz.053453)</a>`,
+            `<b>D. Talukder</b>, F. Jahara, S. Barua \& M. M. Haque, 
+            <i>“OkkhorNama: BdSL Image Dataset For Real-Time Object Detection
+            Algorithms</i>,” 2021 IEEE Region 10 Symposium (TENSYMP), South Korea, 2021.`,
         },
         {
           title:
-            "Sandra Schüssler, Julia Zuschnegg, Lucas Paletta, Gerald Lodron, Josef Steiner, Sandra Pansy-Resch, Dimitrios Prodromou, Sebastian Brunsch, Lorenzo Carnevale, Thomas Orgel, Michael Schneeberger, Silvia Russegger, Maria Fellner, Lara Lammer, Magdalena Holter. “Effects of coach robot pepper versus tablet training on psychosocial and physical outcomes of persons with dementia: A mixed-methods study”. Alzheimer’s & Dementia, vol. 17, issu S11, ISSN: 1552-5279 (December 2021) (doi: 10.1002/alz.053453)",
+          `<b>D. Talukder</b> \& F. Jahara, <i>”Real-Time Bangla Sign Language Detection with Sentence and Speech Generation,”</i> 2020
+          23rd International Conference on Computer and Information Technology (ICCIT), 2020.`,
         },
         {
           title:
-            "Sandra Schüssler, Julia Zuschnegg, Lucas Paletta, Gerald Lodron, Josef Steiner, Sandra Pansy-Resch, Dimitrios Prodromou, Sebastian Brunsch, Lorenzo Carnevale, Thomas Orgel, Michael Schneeberger, Silvia Russegger, Maria Fellner, Lara Lammer, Magdalena Holter. “Effects of coach robot pepper versus tablet training on psychosocial and physical outcomes of persons with dementia: A mixed-methods study”. Alzheimer’s & Dementia, vol. 17, issu S11, ISSN: 1552-5279 (December 2021) (doi: 10.1002/alz.053453)",
+            `S. Barua \& <b>D. Talukder</b>, <i>”A Blockchain 
+            based Decentralize Video Streaming Platform with Content Protection System,”</i> 2020
+            23rd International Conference on Computer and Information Technology (ICCIT), 2020.`,
         },
         {
           title:
-            "Sandra Schüssler, Julia Zuschnegg, Lucas Paletta, Gerald Lodron, Josef Steiner, Sandra Pansy-Resch, Dimitrios Prodromou, Sebastian Brunsch, Lorenzo Carnevale, Thomas Orgel, Michael Schneeberger, Silvia Russegger, Maria Fellner, Lara Lammer, Magdalena Holter. “Effects of coach robot pepper versus tablet training on psychosocial and physical outcomes of persons with dementia: A mixed-methods study”. Alzheimer’s & Dementia, vol. 17, issu S11, ISSN: 1552-5279 (December 2021) (doi: 10.1002/alz.053453)",
+            `R. Saha, <b>D. Talukder</b>, MDA Iqbal, \& M. M. Haque, 
+            <i>{”TOS: A Relative Metric Approach for Model Selection in 
+            Machine Learning Solutions,”</i> 2021 IEEE International Conference 
+            on Robotics, Automation, Artificial-Intelligence and Internet-of-Things (RAAICON)`,
         },
       ],
     },
@@ -33,19 +41,9 @@ type paper = {
       papers: [
         {
           title:
-            "Sandra Schüssler, Julia Zuschnegg, Lucas Paletta, Gerald Lodron, Josef Steiner, Sandra Pansy-Resch, Dimitrios Prodromou, Sebastian Brunsch, Lorenzo Carnevale, Thomas Orgel, Michael Schneeberger, Silvia Russegger, Maria Fellner, Lara Lammer, Magdalena Holter. “Effects of coach robot pepper versus tablet training on psychosocial and physical outcomes of persons with dementia: A mixed-methods study”. Alzheimer’s & Dementia, vol. 17, issu S11, ISSN: 1552-5279 (December 2021) (doi: 10.1002/alz.053453)",
-        },
-        {
-          title:
-            "Sandra Schüssler, Julia Zuschnegg, Lucas Paletta, Gerald Lodron, Josef Steiner, Sandra Pansy-Resch, Dimitrios Prodromou, Sebastian Brunsch, Lorenzo Carnevale, Thomas Orgel, Michael Schneeberger, Silvia Russegger, Maria Fellner, Lara Lammer, Magdalena Holter. “Effects of coach robot pepper versus tablet training on psychosocial and physical outcomes of persons with dementia: A mixed-methods study”. Alzheimer’s & Dementia, vol. 17, issu S11, ISSN: 1552-5279 (December 2021) (doi: 10.1002/alz.053453)",
-        },
-        {
-          title:
-            "Sandra Schüssler, Julia Zuschnegg, Lucas Paletta, Gerald Lodron, Josef Steiner, Sandra Pansy-Resch, Dimitrios Prodromou, Sebastian Brunsch, Lorenzo Carnevale, Thomas Orgel, Michael Schneeberger, Silvia Russegger, Maria Fellner, Lara Lammer, Magdalena Holter. “Effects of coach robot pepper versus tablet training on psychosocial and physical outcomes of persons with dementia: A mixed-methods study”. Alzheimer’s & Dementia, vol. 17, issu S11, ISSN: 1552-5279 (December 2021) (doi: 10.1002/alz.053453)",
-        },
-        {
-          title:
-            "Sandra Schüssler, Julia Zuschnegg, Lucas Paletta, Gerald Lodron, Josef Steiner, Sandra Pansy-Resch, Dimitrios Prodromou, Sebastian Brunsch, Lorenzo Carnevale, Thomas Orgel, Michael Schneeberger, Silvia Russegger, Maria Fellner, Lara Lammer, Magdalena Holter. “Effects of coach robot pepper versus tablet training on psychosocial and physical outcomes of persons with dementia: A mixed-methods study”. Alzheimer’s & Dementia, vol. 17, issu S11, ISSN: 1552-5279 (December 2021) (doi: 10.1002/alz.053453)",
+            `<b>D. Talukder</b> \& M. M. Haque, (2023). 
+            <i>"A Machine Learning Approach to Clinically Diagnose Human Pyrexia Cases."</i> In Applied 
+            Intelligence for Industry 4.0 (pp. 90–103). Chapman and Hall/CRC eBooks.`,
         },
       ],
     },
@@ -54,33 +52,38 @@ type paper = {
       papers: [
         {
           title:
-            "Sandra Schüssler, Julia Zuschnegg, Lucas Paletta, Gerald Lodron, Josef Steiner, Sandra Pansy-Resch, Dimitrios Prodromou, Sebastian Brunsch, Lorenzo Carnevale, Thomas Orgel, Michael Schneeberger, Silvia Russegger, Maria Fellner, Lara Lammer, Magdalena Holter. “Effects of coach robot pepper versus tablet training on psychosocial and physical outcomes of persons with dementia: A mixed-methods study”. Alzheimer’s & Dementia, vol. 17, issu S11, ISSN: 1552-5279 (December 2021) (doi: 10.1002/alz.053453)",
+            `N. Saquib, <b>D. Talukder</b> <i>”Constructing Embodied 
+            Differential Equations of dynamical systems by Sketching in a Infinite Vector Space”</i>`,
         },
         {
           title:
-            "Sandra Schüssler, Julia Zuschnegg, Lucas Paletta, Gerald Lodron, Josef Steiner, Sandra Pansy-Resch, Dimitrios Prodromou, Sebastian Brunsch, Lorenzo Carnevale, Thomas Orgel, Michael Schneeberger, Silvia Russegger, Maria Fellner, Lara Lammer, Magdalena Holter. “Effects of coach robot pepper versus tablet training on psychosocial and physical outcomes of persons with dementia: A mixed-methods study”. Alzheimer’s & Dementia, vol. 17, issu S11, ISSN: 1552-5279 (December 2021) (doi: 10.1002/alz.053453)",
-        },
-        {
-          title:
-            "Sandra Schüssler, Julia Zuschnegg, Lucas Paletta, Gerald Lodron, Josef Steiner, Sandra Pansy-Resch, Dimitrios Prodromou, Sebastian Brunsch, Lorenzo Carnevale, Thomas Orgel, Michael Schneeberger, Silvia Russegger, Maria Fellner, Lara Lammer, Magdalena Holter. “Effects of coach robot pepper versus tablet training on psychosocial and physical outcomes of persons with dementia: A mixed-methods study”. Alzheimer’s & Dementia, vol. 17, issu S11, ISSN: 1552-5279 (December 2021) (doi: 10.1002/alz.053453)",
-        },
-        {
-          title:
-            "Sandra Schüssler, Julia Zuschnegg, Lucas Paletta, Gerald Lodron, Josef Steiner, Sandra Pansy-Resch, Dimitrios Prodromou, Sebastian Brunsch, Lorenzo Carnevale, Thomas Orgel, Michael Schneeberger, Silvia Russegger, Maria Fellner, Lara Lammer, Magdalena Holter. “Effects of coach robot pepper versus tablet training on psychosocial and physical outcomes of persons with dementia: A mixed-methods study”. Alzheimer’s & Dementia, vol. 17, issu S11, ISSN: 1552-5279 (December 2021) (doi: 10.1002/alz.053453)",
+            `<b>D. Talukder</b>, R.Saha, F. Jahara, A. Iqbal, 
+            I. Haque, \& M. M. Haque <i>”Bahon: A large-scale 
+            benchmark dataset for Bangladeshi transport detection and localization”</i>`,
         },
       ],
     },
   ];
 export const researchAgendaData = {
-  title:"Research Agenda",
-  description: `As enhanced devices at the edge of the network exploit artificial
-            intelligence, even novel computing challenges are raised. In my
-            current research agenda, I <a>investigate</a> all aspects related to
-            distributed intelligent systems for supporting cities and
-            communities, with a strong focus on optimizing decentralized and
-            self-organized systems. My research finds application in several
-            domains, among which smart city, mobility, healthcare, cultural
-            heritage and natural disasters.`,
+  title:"Research Interest",
+  description: `My research interest falls in the macro-areas of:
+  <ul class="list-disc">
+      <li>Machine Learning</li>
+      <li>Computer Vision</li>
+      <li>Reinforcement Learning</li>
+      <li>Human-Computer Interaction</li>
+      <li>Collaborative Learning</li>
+  </ul>
+  
+  I am particularly interested in the development of generalizable,
+  reliable, and interpretable AI models for low-powered devices within the 
+  healthcare system. I aim to explore semantic segmentation, feature extraction,
+  object detection and localization, and edge detection techniques in 
+  computer vision, as well as policy-based and model-based approaches in
+  reinforcement learning. However, I am open to exploring any AI subfield 
+  that aligns with my ultimate professional goal of building innovative
+  AI solutions to enhance medical diagnostics and alleviate some of the
+  heavy responsibilities borne by doctors and medical professionals.`,
  
 }
   export default publicationPapers;
