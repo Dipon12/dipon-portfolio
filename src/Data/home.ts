@@ -14,7 +14,7 @@ export const Homedata = {
      
     secondTitle:'Short Biography',
     aboutMe: `<p>I am a Senior Assessment Developer at <a href="https://workera.ai/">Workera.ai</a>, specializing in Data 
-    and AI. I have been a part of Workera family from July 2021. Since December 2023, I have also been collaborating with 
+    and AI. I have been a part of the Workera family from July 2021. Since December 2023, I have also been collaborating with 
     <a href="https://www.nsaquib.org/https://www.nsaquib.org/">Nazmus Saquib</a>, 
     PhD from MIT Media Lab, as a Research Assistant, working 
     on novel methods to represent AI models through the embodied representation of differential 
