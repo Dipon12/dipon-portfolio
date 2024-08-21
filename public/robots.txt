@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://dipon.netlify.app/
+Host: https://dipon-talukder.netlify.app/
 
 # Sitemaps
-Sitemap: https://dipon.netlify.app/sitemap.xml
+Sitemap: https://dipon-talukder.netlify.app/sitemap.xml

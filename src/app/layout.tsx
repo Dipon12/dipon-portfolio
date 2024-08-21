@@ -10,7 +10,7 @@ import PaginationButtons from "@/components/custom/PaginationButtons ";
 import sideBarData from "@/Data/layout";
 
 const workSans = Work_Sans({ subsets: ["latin"] });
-const siteUrl = "http://dipon.netlify.app";
+const siteUrl = "http://dipon-talukder.netlify.app";
 export const metadata: Metadata = {
   title: "Dipon Talukder Dhrubo",
   description:
@@ -82,7 +82,7 @@ export default function RootLayout({
         <Script
           type="text/javascript"
           id="clustrmaps"
-          src="//clustrmaps.com/map_v2.js?d=w8Eh2mRJQmsa0rf2sLopGxCJtHJdyEmnLfeyme6dAM8&cl=ffffff&w=a"
+          src="//clustrmaps.com/map_v2.js?d=lQ7ySferTHHuNdpj-9HUu__CAT-HFukL5mC_q9IjKlk&cl=ffffff&w=a"
         />
       </body>
     </html>

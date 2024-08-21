@@ -71,17 +71,17 @@ const selectedProjects = [
     gitHubLink: "https://github.com/Dipon12/A-WebApp-to-Diagnose-Human-Pyrexia-Case-using-Machine-Learning-Approach",
   },
 
-  {
-    id: 6,
-    title: "Synthetic Data Generation using DCGAN Architecture ",
-    shortDescription: "",
-    LongDescription: `Developed a Generative Adversarial Network (GAN) model using 
-    the Fashion MNIST dataset, successfully generating synthetic, unique, high-quality
-     images across 10 distinct classes.`,
-    picture: "/project/project-1.png",
-    techStack: "Python, Tensorflow, Flask, JS, CSS, HTML",
-    gitHubLink: "https://github.com/Dipon12/DeepFake-using-DCGAN-Architecture-Keras-Implementation",
-  },
+  // {
+  //   id: 6,
+  //   title: "Synthetic Data Generation using DCGAN Architecture ",
+  //   shortDescription: "",
+  //   LongDescription: `Developed a Generative Adversarial Network (GAN) model using 
+  //   the Fashion MNIST dataset, successfully generating synthetic, unique, high-quality
+  //    images across 10 distinct classes.`,
+  //   picture: "/project/project-1.png",
+  //   techStack: "Python, Tensorflow, Flask, JS, CSS, HTML",
+  //   gitHubLink: "https://github.com/Dipon12/DeepFake-using-DCGAN-Architecture-Keras-Implementation",
+  // },
 ];
 
 const skillData = [
