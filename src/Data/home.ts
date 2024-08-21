@@ -1,6 +1,6 @@
 export const Homedata = {
     firstTitle:"Research Agenda",
-    researchAgenda: `As recent advancements within AI continue to transform the 
+    researchAgenda: `<p>As recent advancements within AI continue to transform the 
       capabilities of edge devices, they present unique challenges and opportunities 
       in computing. My research agenda is dedicated to pioneering advanced AI models 
       that are not only generalizable and interpretable but also reliable enough for
@@ -10,7 +10,7 @@ export const Homedata = {
       While my primary interest is in healthcare, I also possess a keen curiosity
       in autonomous vehicle technologies. <br><br>
         
-      To know more about my research, please visit <a href="/publications">Research Page.</a>`,
+      To know more about my research, please visit <a href="/publications">Research Page.</a></p>`, 
      
     secondTitle:'Short Biography',
     aboutMe: `<p>I am a Senior Assessment Developer at <a href="https://workera.ai/">Workera.ai</a>, specializing in Data 

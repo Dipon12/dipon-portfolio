@@ -57,7 +57,7 @@ const volunterringData = [
     url: "",
   },
   {
-    title: "Community Leader & Mentor, Workera.ai Learner’s Communit",
+    title: "Community Leader & Mentor, Workera.ai Learner’s Community",
     year: "2021",
     url: "",
   },
@@ -65,13 +65,8 @@ const volunterringData = [
 
 const InvitedTalksData = [
   {
-    title: "Beta Tester, Coursera",
-    year: "2022",
-    url: "",
-  },
-  {
-    title: "Community Leader & Mentor, Workera.ai Learner’s Communit",
-    year: "2021",
+    title: "AI Roadmap: Trends, Roles, and Skills You Need to Know - <i>SKITBI, Chittagong University of Engineering and Technology</i>",
+    year: "2024",
     url: "",
   },
 ];
@@ -84,9 +79,10 @@ const outReachPageData = [
     category: "VOLUNTEERING",
     data: volunterringData,
   },
-  // {category:'Invited Talk',
-  //   data: InvitedTalksData,
-  // },
+  {
+    category:'Invited Talk',
+    data: InvitedTalksData,
+  },
 
 ];
 
