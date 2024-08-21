@@ -5,7 +5,7 @@ export const Homedata = {
       in computing. My research agenda is dedicated to pioneering advanced AI models 
       that are not only generalizable and interpretable but also reliable enough for
       critical medical applications. A key aspect of my research agenda is to improve
-      the affordability and accuracy of medical devices, with the ultimate goal of
+      the affordability and accuracy of medical devices, with the goal of
       making these technologies accessible in underprivileged regions worldwide. 
       While my primary interest is in healthcare, I also possess a keen curiosity
       in autonomous vehicle technologies. <br><br>
@@ -22,7 +22,7 @@ export const Homedata = {
 
     <p>I hold a Bachelor's degree in Computer Science and Engineering from 
     <a href="https://www.cuet.ac.bd/">Chittagong University of Engineering 
-    and Technology</a>, where I had the privilege of conducting research under the supervision of Professor
+    and Technology</a>, graduating in June 2021, where I had the privilege of conducting research under the supervision of Professor
      <a href = "https://www.cuet.ac.bd/members/501">Md. Mokammel Haque</a>. Under Professor Haque's 
      supervision, my academic focus included research on 
      improving communication and accessibility for hearing-impaired individuals through image segmentation 
@@ -38,10 +38,10 @@ export const Homedata = {
     under the Bangladesh Hi-Tech Park Authority, delivering training in Machine Learning, Deep Learning, and Computer Vision.<br><br></p>
 
     <p>My interest in Machine Learning began in 2019 during my third year of university. Since then, 
-    I have pursued numerous online and offline courses in the field. In 2020, during my final year of undergraduate, I collaborated 
+    I have pursued numerous <a href="/education#Online-Courses">online and offline courses</a> in the field. In 2020, during my final year of undergraduate, I collaborated 
     with small research groups to study the use of Generative Adversarial Networks to enhance the diagnostic process for 
     skin diseases through synthetic data generation. That same year, I led Team OkkhorNama to become one of the final 
-    25 teams in the National AI Bangla Competition, selected from a pool of 800 teams. Our project, aimed at aiding 
+    25 teams in the <a href = "https://bangla.gov.bd/ai-for-bangla-1-0/">National AI for Bangla</a> Competition, selected from a pool of 800 teams. Our project, aimed at aiding 
     hearing-impaired individuals, was recognized for its innovative approach, and the dataset we developed was later
      endorsed and utilized for further development in a government project.</p>`
 }

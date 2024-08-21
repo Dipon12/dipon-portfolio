@@ -12,13 +12,13 @@ import sideBarData from "@/Data/layout";
 const workSans = Work_Sans({ subsets: ["latin"] });
 const siteUrl = "http://dipon.netlify.app";
 export const metadata: Metadata = {
-  title: "Dipon Talukder Dhruvo",
+  title: "Dipon Talukder Dhrubo",
   description:
     "Explore the academic portfolio of Dipon Talukder, a graduate student specializing in ML,AI. Discover research projects, publications, and professional achievements in ML AI, showcasing a commitment to advancing knowledge and contributing to the field.",
   keywords: "DiponTalukder,Dipon,Dipon,Dipon,Dip",
   robots: "index, follow",
   openGraph: {
-    title: "Dipon Talukder Dhruvo",
+    title: "Dipon Talukder Dhrubo",
     description:
       "Explore the academic portfolio of Dipon Talukder, a graduate student specializing in ML,AI. Discover research projects, publications, and professional achievements in ML AI, showcasing a commitment to advancing knowledge and contributing to the field.",
     url: siteUrl,

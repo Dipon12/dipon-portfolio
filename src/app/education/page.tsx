@@ -32,8 +32,8 @@ export default function Education() {
       />
       <hr className="h-px my-2 md:my-4 bg-[#00000010] border-0 dark:bg-gray-700" />
 
-      <h2 id="Online-Coureses" className="text-2xl font-bold mb-4 text-primary">
-        Online Coureses
+      <h2 id="Online-Courses" className="text-2xl font-bold mb-4 text-primary">
+        Online Courses
       </h2>
 
       <ol className="mt-4 space-y-4 text-left text-gray-800 dark:text-gray-800">
