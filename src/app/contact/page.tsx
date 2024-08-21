@@ -62,10 +62,10 @@ export default function Home() {
                   Contact
                 </h3>
                 <p className="text-gray-600 dark:text-slate-400">
-                  Mobile: +1 (123) 456-7890
+                  Mobile: +88 0152 132 7959
                 </p>
                 <p className="text-gray-600 dark:text-slate-400">
-                  Mobile: +1 (123) 456-7890
+                  Mobile: +88 0176 123 9802
                 </p>
               </div>
             </li>
@@ -95,10 +95,13 @@ export default function Home() {
                   Email address
                 </h3>
                 <p className="text-gray-600 dark:text-slate-400">
-                  alvey1504005@gmaail.com
+                  dipontalukder12@gmail.com
                 </p>
                 <p className="text-gray-600 dark:text-slate-400">
-                  Saturday &amp; Sunday: 08:00 - 12:00
+                  dipon@workera.ai
+                </p>
+                <p className="text-gray-600 dark:text-slate-400">
+                  dipon.t@adjunct.eastdelta.edu.bd
                 </p>
               </div>
             </li>
