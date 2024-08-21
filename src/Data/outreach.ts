@@ -63,6 +63,18 @@ const volunterringData = [
   },
 ];
 
+const InvitedTalksData = [
+  {
+    title: "Beta Tester, Coursera",
+    year: "2022",
+    url: "",
+  },
+  {
+    title: "Community Leader & Mentor, Workera.ai Learner’s Communit",
+    year: "2021",
+    url: "",
+  },
+];
 const outReachPageData = [
   {
     category: "Awards",
@@ -72,6 +84,10 @@ const outReachPageData = [
     category: "VOLUNTEERING",
     data: volunterringData,
   },
+  // {category:'Invited Talk',
+  //   data: InvitedTalksData,
+  // },
+
 ];
 
 export default outReachPageData;

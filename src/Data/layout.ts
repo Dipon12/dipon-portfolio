@@ -6,11 +6,11 @@ const sideBaritems: SidebarItem[] = [
       href: "/",
       links: [
         {
-          label: "Introduction",
+          label: "Research Agenda",
           href: "/#introduction",
         },
         {
-          label: "About Me",
+          label: "Short Biography",
           href: "/#about-me",
         },
       ],
@@ -66,7 +66,7 @@ const sideBaritems: SidebarItem[] = [
           label: "Awards",
         },
         { href: "/outreach#Volunteering", label: "Volunteering" },
-        { href: "/outreach#invited-talks", label: "Invited" },
+        { href: "/outreach#invited-talk", label: "Invited" },
       ],
     },
     { title: "Contact", href: "/contact" },

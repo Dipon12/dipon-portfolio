@@ -30,7 +30,8 @@ function Projects() {
         <div className="flex flex-col gap-y-10">
           {projectPageData?.selectedProjects.map((project, index) => {
             return (
-              <div key={index}>
+              <div key={index} className="block h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+
                 <div className="grid grid-cols-1 lg:grid-cols-[45%,55%] lg:grid-rows-[auto,1fr] gap-2 lg:gap-x-8 lg:gap-y-0 p-4">
                   {/* Image Section */}
                   <div className="order-2 lg:order-1 lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3 relative h-full">

@@ -114,8 +114,7 @@ Responsible AI, MLOps, Accountability AI, and Mathematics for AI.`
           duration: "Fall, 2023 - Present",
           courses: courses,
           responsibilities: [
-            `COnducting/conducted the following theory courses: Computer Graphics, Mobile Computing,
-Digital Electronics & Pulse Techniques, and Compiler Design`,
+            `Conducting/conducted the following theory courses:`,
           ],
         },
       ],
