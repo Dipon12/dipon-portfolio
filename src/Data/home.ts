@@ -41,7 +41,7 @@ export const Homedata = {
     I have pursued numerous <a href="/education#Online-Courses">online and offline courses</a> in the field. In 2020, during my final year of undergraduate, I collaborated 
     with small research groups to study the use of Generative Adversarial Networks to enhance the diagnostic process for 
     skin diseases through synthetic data generation. That same year, I led Team OkkhorNama to become one of the final 
-    25 teams in the <a href = "https://bangla.gov.bd/ai-for-bangla-1-0/">National AI for Bangla</a> Competition, selected from a pool of 800 teams. Our project, aimed at aiding 
+    25 teams in the <a href = "https://bangla.gov.bd/ai-for-bangla-1-0/">National AI for Bangla Competition</a>, selected from a pool of 800 teams. Our project, aimed at aiding 
     hearing-impaired individuals, was recognized for its innovative approach, and the dataset we developed was later
      endorsed and utilized for further development in a government project.</p>`
 }

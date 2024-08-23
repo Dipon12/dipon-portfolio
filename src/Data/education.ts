@@ -9,7 +9,7 @@ const educationItems = [
     {
       title: "Hajera Taju College",
       details: [
-        "Higher Secondary School Certificate (HSC)",
+        "<strong class='text-[#559988]'>Higher Secondary School Certificate (HSC) </strong>",
         "June 2013 - May 2015",
       ],
     },
@@ -28,7 +28,7 @@ const educationItems = [
   const OnlineCourses = [
     {
       title:
-        "Reinforcement Learning Specialization - University of Alberta (Online)",
+        "Reinforcement Learning Specialization - <i>University of Alberta (Online)",
       link: "",
     },
     {
