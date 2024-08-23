@@ -28,29 +28,29 @@ const educationItems = [
   const OnlineCourses = [
     {
       title:
-        "Reinforcement Learning Specialization - <i>University of Alberta (Online)",
+        "Reinforcement Learning Specialization - <i>University of Alberta (Online)</i>",
       link: "",
     },
     {
-      title: "Machine Learning - Stanford University (Online)",
+      title: "Machine Learning - <i>Stanford University (Online)</i>",
       link: "",
     },
     {
-      title: "Deep Learning Specialization - Deep Learning Specialization",
+      title: "Deep Learning Specialization - <i>Deep Learning Specialization</i>",
       link: "",
     },
     {
-      title: "TensorFlow Data and Deployment Specialization - DeepLearning.ai",
-      link: "",
-    },
-    {
-      title:
-        "DeepLearning.AI TensorFlow Developer Specialization - DeepLearning.ai",
+      title: "TensorFlow Data and Deployment Specialization - <i>DeepLearning.ai</i>",
       link: "",
     },
     {
       title:
-        "Introduction to Quantum Computing, - 2020 Qiskit Global Summer School, IBM Qiskit",
+        "DeepLearning.AI TensorFlow Developer Specialization - <i>DeepLearning.ai</i>",
+      link: "",
+    },
+    {
+      title:
+        "Introduction to Quantum Computing, - <i>2020 Qiskit Global Summer School, IBM Qiskit</i>",
       link: "",
     },
   ];
