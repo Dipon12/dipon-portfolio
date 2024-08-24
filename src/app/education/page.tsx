@@ -1,5 +1,6 @@
 import EducationSection from "@/components/custom/EducationSection";
 import EducationData from "@/Data/education";
+import parse from "html-react-parser";
 const Icon = () => {
   return (
     <>
@@ -43,7 +44,7 @@ export default function Education() {
               <a href={course.link}>
                 <li className="flex items-center space-x-3 rtl:space-x-reverse">
                   <Icon />
-                  <span>{course.title}</span>
+                  <span>{parse(course.title)}</span>
                 </li>
               </a>
             </>
