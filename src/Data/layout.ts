@@ -54,7 +54,7 @@ const sideBaritems: SidebarItem[] = [
           href: "/publications#peer-reviewed-conference",
           label: "Peer Reviewed Conference",
         },
-        { href: "/publications#book-chapter", label: "Book Chapter" },
+//        { href: "/publications#book-chapter", label: "Book Chapter" },
         { href: "/publications#in-progress", label: "In Progress" },
       ],
     },
