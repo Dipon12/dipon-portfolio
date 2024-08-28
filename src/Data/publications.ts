@@ -92,7 +92,7 @@ export const researchAgendaData = {
   reliable, and interpretable AI models for devices within the 
   healthcare system. I aim to explore semantic segmentation, feature extraction,
   object detection and localization, and edge detection techniques in 
-  computer vision, as well as policy-based and model-based approaches in
+  computer vision, as well as online and offline approaches in
   reinforcement learning. However, I am open to exploring any AI subfield 
   that aligns with my ultimate professional goal of building innovative
   AI solutions to enhance medical diagnostics and alleviate some of the
