@@ -25,7 +25,7 @@ const sideBaritems: SidebarItem[] = [
           href: "education/#international-certification",
         },
         { label: "Online Courses", href: "education/#Online-Courses" },
-        { label: "Training & WorkShop", href: "education/#training" },
+        { label: "Training & Workshop", href: "education/#training" },
       ],
     },
     {
