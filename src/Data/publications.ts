@@ -87,16 +87,16 @@ export const researchAgendaData = {
       <li>Collaborative Learning</li>
   </ul>
 
+    I am particularly interested in developing generalizable, reliable, and interpretable AI 
+    models that can be deployed in real-world scenarios. My research aims to explore
+    context-aware vision models, semantic segmentation, feature extraction, object detection 
+    and localization, and edge detection techniques in computer vision, as well as both online
+    and offline approaches in reinforcement learning. However, I am open to exploring any AI 
+    subfield that aligns with my goal of boosting machine vision techniques to increase their 
+    capabilities in medical diagnostics and autonomous systems.
+
   
-  <div class="">I am particularly interested in the development of generalizable,
-  reliable, and interpretable AI models for devices within the 
-  healthcare system. I aim to explore semantic segmentation, feature extraction,
-  object detection and localization, and edge detection techniques in 
-  computer vision, as well as online and offline approaches in
-  reinforcement learning. However, I am open to exploring any AI subfield 
-  that aligns with my ultimate professional goal of building innovative
-  AI solutions to enhance medical diagnostics and alleviate some of the
-  heavy responsibilities borne by doctors and medical professionals.</div>`,
+  </div>`,
  
 }
   export default publicationPapers;
