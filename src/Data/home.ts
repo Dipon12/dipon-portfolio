@@ -4,11 +4,10 @@ export const Homedata = {
       capabilities of edge devices, they present unique challenges and opportunities 
       in computing. My research agenda is dedicated to pioneering advanced AI models 
       that are not only generalizable and interpretable but also reliable enough for
-      critical medical applications. A key aspect of my research agenda is to improve
-      the affordability and accuracy of medical devices, with the goal of
-      making these technologies accessible in underprivileged regions worldwide. 
-      While my primary interest is in healthcare, I also possess a keen curiosity
-      in autonomous vehicle technologies. <br><br>
+      critical applications. A key aspect of my work involves improving the 
+      affordability and accuracy of these technologies, with the broader aim of making 
+      them accessible to underserved regions globally. While my primary interest is in 
+      healthcare, I also possess a keen curiosity in autonomous vehicle technologies. <br><br>
         
       To know more about my research, please visit <a href="/publications">Research Page.</a></p>`, 
      
