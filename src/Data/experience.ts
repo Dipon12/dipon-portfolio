@@ -120,7 +120,7 @@ Responsible AI, MLOps, Accountability AI, and Mathematics for AI.`
       ],
     },
     {
-      company: "Bangladesh Hi-Tech Park Authority",
+      company: "IT Business Incubator, CUET",
       url:'https://skitbi-cuet.com/',
 
       roles: [
