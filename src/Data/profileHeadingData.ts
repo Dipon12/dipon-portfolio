@@ -11,7 +11,7 @@ const socialIcons = [
     "Senior Assessment Developer, Workera.ai",
     "Research Assistant, Universal Machine",
     "Adjunct Lecturer, East Delta University",
-    "Specialized Trainer, Bangladesh Hi-Tech Park Authority"
+    "Specialized Trainer, IT Business Incubator, CUET"
   ]
 const profileHeadingData = {
     name,
