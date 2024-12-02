@@ -35,7 +35,7 @@ const ProfileHeading = () => {
           ))}
         </div>
         <Button label="Download My CV"
-        pdfUrl="https://drive.google.com/file/d/1Goq7S7IMQVhsjZ07qOoChG9XWHxni4n3/view?usp=sharing"
+        pdfUrl="https://drive.google.com/file/d/1KsHNXGhJkWW2JDbODmxHIrCv_NYPY5yn/view?usp=sharing"
         />
         </div>
         </div>
