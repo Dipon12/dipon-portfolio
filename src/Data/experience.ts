@@ -67,12 +67,11 @@ const courses = [
           address:"(Remote) California, USA",
           duration: "August, 2024 - Present",
           responsibilities: [
-            `Collaborating on cross-team R&D initiatives to integrate multi-agent LLM processes into
-the Workera Skillmap tool and introducing new assessment modalities within the Workera
-product suite.`,
-            `Leading the development and management of specialized assessments for clients in the
-domains of AI Security, Information Retrieval, Large Vision Models, and Neural Acceleration
-Technologies`,
+            `Collaborating on cross-team R&D initiatives to develop personalized AI mentor Sage by
+            leveraging multi-agent LLM processes and introducing new assessment modalities within the
+            Workera product suite.`,
+            `Leading the development and management of specialized assessments for prestigious
+            clients including AT&T, Booz Allen Hamilton, MARS, Samsung India.`,
           ],
         },
         {
