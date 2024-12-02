@@ -2,6 +2,16 @@ import exp from "constants";
 
 const courses = [
     {
+      title: "CSE 320: Compiler Design (Sessional)",
+      classSize: 131,
+      status: "Fall '24",
+    },
+    {
+      title: "CSE 319: Compiler Design",
+      classSize: 131,
+      status: "Fall '24",
+    },
+    {
       title: "CSE 307: Mobile Computing",
       classSize: 131,
       status: "Summer '24",
