@@ -140,6 +140,8 @@ Responsible AI, MLOps, Accountability AI, and Mathematics for AI.`
           // courses: trainerCourses,
           responsibilities: [
             `Delivering training on Machine Learning, Deep Learning, and Computer Vision domains.`,
+            `Trainer of EDGE project ($295M Funding from World Bank), BDSET project ($5M Joint Funding 
+            from Bangladesh and India) alongside core training programs`
           ],
         },
       ],
