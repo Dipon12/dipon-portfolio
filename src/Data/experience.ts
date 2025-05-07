@@ -2,6 +2,11 @@ import exp from "constants";
 
 const courses = [
     {
+      title: "CSE 307: Mobile Computing and Applications",
+      classSize: 131,
+      status: "Summer '25",
+    },
+    {
       title: "CSE 320: Compiler Design (Sessional)",
       classSize: 131,
       status: "Fall '24",
@@ -12,7 +17,7 @@ const courses = [
       status: "Fall '24",
     },
     {
-      title: "CSE 307: Mobile Computing",
+      title: "CSE 307: Mobile Computing and Applications",
       classSize: 131,
       status: "Summer '24",
     },
@@ -93,6 +98,20 @@ Responsible AI, MLOps, Accountability AI, and Mathematics for AI.`
         },
       ],
     },
+
+
+    {
+      company: "Universal Machine",
+      url:'https://universalmachine.io/',
+      roles: [
+        {
+          title: "Software Engineer - ||",
+          address:"(Remote) California, USA",
+          duration: "April, 2025 - Present",
+          responsibilities: [
+            `Developing in-game AI agents using LangChain to improve gaming experience`
+          ],
+        },
   ];
   const researchExperiences = [
     {
@@ -102,7 +121,7 @@ Responsible AI, MLOps, Accountability AI, and Mathematics for AI.`
         {
           title: "Research Assistant",
           address:"(Remote) California, USA",
-          duration: "December, 2023 - Present",
+          duration: "December, 2023 - March, 2025",
           responsibilities: [
             `<b>Advisor:</b> <a href="https://www.nsaquib.org/https://www.nsaquib.org/">Nazmus Saquib</a>,PhD  `,
             `<b>Research</b>: Approach to represent AI models through the embodied representation of
@@ -136,7 +155,7 @@ Responsible AI, MLOps, Accountability AI, and Mathematics for AI.`
         {
           title: "Specialized Trainer",
           address:"Chittagong, Bangladesh",
-          duration: "April, 2024 - Present",
+          duration: "April, 2024 - December, 2024",
           // courses: trainerCourses,
           responsibilities: [
             `Delivering training on Machine Learning, Deep Learning, and Computer Vision domains.`,
