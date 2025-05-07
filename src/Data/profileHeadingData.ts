@@ -9,7 +9,7 @@ const socialIcons = [
   const name = "Dipon Talukder";
   const designations = [
     "Senior Assessment Developer, Workera.ai",
-    "Software Engineer - ||, Universal Machine",
+    "Software Engineer - II, Universal Machine",
     "Adjunct Lecturer, East Delta University",
     "Ex - Trainer, IT Business Incubator, CUET"
   ]
