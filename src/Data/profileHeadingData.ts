@@ -9,9 +9,9 @@ const socialIcons = [
   const name = "Dipon Talukder";
   const designations = [
     "Senior Assessment Developer, Workera.ai",
-    "Research Assistant, Universal Machine",
+    "Software Engineer - ||, Universal Machine",
     "Adjunct Lecturer, East Delta University",
-    "Specialized Trainer, IT Business Incubator, CUET"
+    "Ex - Trainer, IT Business Incubator, CUET"
   ]
 const profileHeadingData = {
     name,
