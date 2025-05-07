@@ -37,7 +37,8 @@ const courses = [
       status: "Fall '23",
     },
   ];
-  const trainerCourses = [    {
+  const trainerCourses = [    
+  {
     title: "Artificial Intelligence",
     classSize: 125,
     status: "Running (Oct '23- )",
@@ -85,21 +86,19 @@ const courses = [
           duration: "",
           responsibilities: [
             `Conducted R&D to leverage LLMs in the development process,including engineering core
-production prompts, tuning of LLMs, and incorporating agentic workflows within Workera
-GOAT™ (Generative Ontology & Authoring Tool).`,
+            production prompts, tuning of LLMs, and incorporating agentic workflows within Workera
+            GOAT™ (Generative Ontology & Authoring Tool).`,
 
             `Implemented automated pipelines to generate technical report from Workera item bank
-database and to map online learning resources to Workera skill ontology and skill signals.`,
-
-`Developed assessments and learning plans as the primary subject matter expert for the
-Workera signature products such as Deep Learning, Machine Learning, Computer Vision,
-Responsible AI, MLOps, Accountability AI, and Mathematics for AI.`
+            database and to map online learning resources to Workera skill ontology and skill signals.`,
+              
+            `Developed assessments and learning plans as the primary subject matter expert for the
+            Workera signature products such as Deep Learning, Machine Learning, Computer Vision,
+            Responsible AI, MLOps, Accountability AI, and Mathematics for AI.`
           ],
         },
       ],
     },
-
-
     {
       company: "Universal Machine",
       url:'https://universalmachine.io/',
@@ -112,6 +111,8 @@ Responsible AI, MLOps, Accountability AI, and Mathematics for AI.`
             `Developing in-game AI agents using LangChain to improve gaming experience`
           ],
         },
+      ],
+    }
   ];
   const researchExperiences = [
     {
