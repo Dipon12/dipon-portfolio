@@ -116,7 +116,7 @@ Responsible AI, MLOps, Accountability AI, and Mathematics for AI.`
   const researchExperiences = [
     {
       company: "Universal Machine",
-      url:'https://workera.ai/',
+      url:'https://www.nsaquib.org/',
       roles: [
         {
           title: "Research Assistant",
