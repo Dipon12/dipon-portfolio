@@ -4,7 +4,7 @@ const courses = [
     {
       title: "CSE 307: Mobile Computing and Applications",
       classSize: 131,
-      status: "Summer '25",
+      status: "Spring '25",
     },
     {
       title: "CSE 320: Compiler Design (Sessional)",
