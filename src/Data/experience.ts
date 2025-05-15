@@ -73,11 +73,16 @@ const courses = [
           address:"(Remote) California, USA",
           duration: "August, 2024 - Present",
           responsibilities: [
-            `Collaborating on cross-team R&D initiatives to develop personalized AI mentor Sage by
-            leveraging multi-agent LLM processes and introducing new assessment modalities within the
-            Workera product suite.`,
-            `Leading the development and management of specialized assessments for prestigious
-            clients including AT&T, Booz Allen Hamilton, MARS, Samsung India.`,
+            `Developed an agentic workflow using LangChain and ChatGPT API to generate
+            evidence-centered personalized AI assessments in Workera platform.`,
+            `Integrated new assessment modalities (Short Answer, Whiteboard, and Coding) into the
+            Workera product suite by leveraging the ChatGPT API for dynamic item generation, response
+            evaluation and MermaidJS for diagram rendering.`,
+            `Designed scoring rubric for short-answer and coding items, optimized to guide LLMs toward
+            generating accurate, hallucination-resistant scoring outputs and targeted, context-aware
+            feedback.`,
+            `Lead the development and design of hyperpersonalized AI assessments for clients including
+            AT&T, Booz Allen Hamilton, MARS, Samsung India.`
           ],
         },
         {
@@ -89,12 +94,23 @@ const courses = [
             production prompts, tuning of LLMs, and incorporating agentic workflows within Workera
             GOAT™ (Generative Ontology & Authoring Tool).`,
 
-            `Implemented automated pipelines to generate technical report from Workera item bank
-            database and to map online learning resources to Workera skill ontology and skill signals.`,
+            `Built a pipeline to extract domain-specific assessment data from the Workera question bank
+            and generate technical PDF reports with item analytics, learner performance, and learning
+            impact insights.`,
               
+            `Designed and developed a system that imports questions from the Workera item bank and
+            leverages ChatGPT to calculate max solve time-based on personalized features.`,
+
+            `Developed a web scraper to extract free online blogs aligned with a predefined skill ontology
+            of a domain and systematically store the learning content for creating personalized learning
+            pathways.`,
+
+            `Implemented automated pipelines to generate technical reports from the Workera item bank
+            database and to map online learning resources to Workera skill ontology and skill signals.`,
+
             `Developed assessments and learning plans as the primary subject matter expert for the
             Workera signature products such as Deep Learning, Machine Learning, Computer Vision,
-            Responsible AI, MLOps, Accountability AI, and Mathematics for AI.`
+            Responsible AI, MLOps, Accountability AI, and Mathematics for AI.`  
           ],
         },
       ],
