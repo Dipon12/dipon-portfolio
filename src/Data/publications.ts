@@ -82,6 +82,7 @@ export const researchAgendaData = {
   <ul class="list-disc list-inside space-y-2 my-4 ml-5">
       <li>Machine Learning</li>
       <li>Computer Vision</li>
+      <li>Multimodal AI</li>
       <li>Reinforcement Learning</li>
       <li>Human-Computer Interaction</li>
       <li>Collaborative Learning</li>
