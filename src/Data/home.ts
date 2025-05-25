@@ -1,13 +1,11 @@
 export const Homedata = {
     firstTitle:"Research Agenda",
-    researchAgenda: `<p>As recent advancements within AI continue to transform the 
-      capabilities of edge devices, they present unique challenges and opportunities 
-      in computing. My research agenda is dedicated to pioneering advanced AI models 
-      that are not only generalizable and interpretable but also reliable enough for
-      critical applications. A key aspect of my work involves improving the 
-      affordability and accuracy of these technologies, with the broader aim of making 
+    researchAgenda: `<p> My research agenda is dedicated to pioneering advanced AI models 
+      that are not only generalizable and interpretable but also reliable enough even for
+      high-stake applications. A key aim of my future research involves improving the 
+      accuracy and mathematical optimization of the AI models, with the broader aim of making 
       them accessible to underserved regions globally. While my primary interest is in 
-      healthcare, I also possess a keen curiosity in autonomous vehicle technologies. <br><br>
+      healthcare, I also possess a keen curiosity in autonomous technologies. <br><br>
         
       To know more about my research, please visit <a href="/publications">Research Page.</a></p>`, 
      
