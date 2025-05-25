@@ -58,7 +58,9 @@ const sideBaritems: SidebarItem[] = [
         { href: "/publications#in-progress", label: "In Progress" },
       ],
     },
+    /*
     { title: "Projects", href: "/projects" },
+    */
     { title: "Outreach", href: "/outreach", 
       links: [
         {
