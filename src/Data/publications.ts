@@ -85,14 +85,13 @@ export const researchAgendaData = {
       <li>Multimodal AI</li>
       <li>Reinforcement Learning</li>
       <li>Human-Computer Interaction</li>
-      <li>Collaborative Learning</li>
   </ul>
 
-    I am particularly interested in developing generalizable, reliable, and interpretable AI 
-    models that can be deployed in real-world scenarios. My research aims to explore
+    I am particularly interested in developing generalizable, reliable, and interpretable models. My aim to explore
     context-aware vision models, semantic segmentation, feature extraction, object detection 
     and localization, and edge detection techniques in computer vision, as well as both online
-    and offline approaches in reinforcement learning. However, I am open to exploring any AI 
+    and offline approaches in reinforcement learning. I am also highly interested in multimodal AI, 
+    to improve contextual understanding of the large models. However, I am open to exploring any AI 
     subfield that aligns with my goal of boosting machine vision techniques to increase their 
     capabilities in medical diagnostics and autonomous systems.
 
