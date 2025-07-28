@@ -4,16 +4,14 @@
 
 @layer base {
   :root {
-    /* --primary:180 100% 80% 1; */
+    /* Light theme - keeping your original values */
     --background: 0 0% 100%;
     --foreground: 224 71.4% 4.1%;
     --card: 0 0% 100%;
     --card-foreground: 224 71.4% 4.1%;
     --popover: 0 0% 100%;
     --popover-foreground: 224 71.4% 4.1%;
-    /* --primary: 220.9 39.3% 11%; */
     --primary: 180 100% 25%;
-    /* --primary-foreground: 210 20% 98%; */
     --primary-foreground: 188, 100%, 25%;
     --secondary: 220 14.3% 95.9%;
     --secondary-foreground: 220.9 39.3% 11%;
@@ -35,30 +33,38 @@
   }
 
   .dark {
-    --background: 224 71.4% 4.1%;
-    --foreground: 210 20% 98%;
-    --card: 224 71.4% 4.1%;
-    --card-foreground: 210 20% 98%;
-    --popover: 224 71.4% 4.1%;
-    --popover-foreground: 210 20% 98%;
-    --primary: 210 20% 98%;
-    --primary-foreground: 220.9 39.3% 11%;
-    --secondary: 215 27.9% 16.9%;
-    --secondary-foreground: 210 20% 98%;
-    --muted: 215 27.9% 16.9%;
-    --muted-foreground: 217.9 10.6% 64.9%;
-    --accent: 215 27.9% 16.9%;
-    --accent-foreground: 210 20% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 20% 98%;
-    --border: 215 27.9% 16.9%;
-    --input: 215 27.9% 16.9%;
-    --ring: 216 12.2% 83.9%;
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
+    /* ChatGPT Dark Theme Colors */
+    --background: 212 13% 8%;        /* Very dark blue-gray (#1a1a1a equivalent) */
+    --foreground: 0 0% 90%;          /* Light gray text */
+    --card: 215 13% 12%;             /* Slightly lighter than background */
+    --card-foreground: 0 0% 90%;     /* Light gray text on cards */
+    --popover: 215 13% 12%;          /* Same as card */
+    --popover-foreground: 0 0% 90%;  /* Light gray text */
+    
+    /* ChatGPT green accent - using their signature green */
+    --primary: 142 71% 45%;          /* ChatGPT green (#10a37f) */ 
+    --primary-foreground: 0 0% 100%; /* White text on green */
+    
+    --secondary: 215 13% 15%;        /* Darker gray for secondary elements */
+    --secondary-foreground: 0 0% 75%; /* Medium gray text */
+    --muted: 215 13% 15%;            /* Same as secondary */
+    --muted-foreground: 0 0% 60%;    /* Muted gray text */
+    --accent: 142 71% 45%;           /* Green accent matching primary */
+    --accent-foreground: 0 0% 100%;  /* White on green */
+    
+    --destructive: 0 84% 60%;        /* Red for destructive actions */
+    --destructive-foreground: 0 0% 100%; /* White text on red */
+    
+    --border: 215 13% 20%;           /* Border color - lighter gray */
+    --input: 215 13% 15%;            /* Input background */
+    --ring: 142 71% 45%;             /* Green focus ring */
+    
+    /* Chart colors adjusted for dark theme */
+    --chart-1: 142 71% 45%;          /* Green */
+    --chart-2: 200 100% 70%;         /* Blue */
+    --chart-3: 280 100% 70%;         /* Purple */
+    --chart-4: 45 100% 60%;          /* Orange */
+    --chart-5: 320 100% 70%;         /* Pink */
   }
 }
 
@@ -71,17 +77,13 @@
   }
 }
 
+/* Enhanced link styles for dark theme */
 p a {
-  color: #333;
+  color: hsl(var(--primary));
   text-decoration: none;
-  background: -webkit-linear-gradient(transparent 90%, hsl(var(--primary)) 10%);
-  background: -moz-linear-gradient(transparent 90%, hsl(var(--primary)) 10%);
   background: linear-gradient(transparent 90%, hsl(var(--primary)) 10%);
-  -webkit-box-shadow: inset 0 0 0 0 hsl(var(--primary));
   box-shadow: inset 0 0 0 0 hsl(var(--primary));
-  -webkit-transition: box-shadow ease 1s;
-  -moz-transition: box-shadow ease 1s;
-  transition: color 0s ease .3s,box-shadow ease 1s;
+  transition: color 0s ease .3s, box-shadow ease 1s;
 }
 
 p a {
@@ -92,19 +94,29 @@ p a {
   margin: 0 -.25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
+
 p a:hover {
-  color: #fff;
-  box-shadow: inset 0 200px 0 0 hsl(var(--primary));;
+  color: hsl(var(--primary-foreground));
+  box-shadow: inset 0 200px 0 0 hsl(var(--primary));
+}
+
+/* Dark theme specific enhancements */
+.dark p a {
+  color: hsl(var(--primary));
+}
+
+.dark p a:hover {
+  color: white;
+  box-shadow: inset 0 200px 0 0 hsl(var(--primary));
 }
 
 /* Presentational styles */
-
 .ellipsis-break {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2; /* Number of lines to show */
+  -webkit-line-clamp: 2;
   overflow: hidden;
-  word-break: break-all; /* Break words if they're too long */
+  word-break: break-all;
   text-overflow: ellipsis;
 }
 
@@ -113,10 +125,11 @@ p a:hover {
 }
 
 .scrollbar-hide {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
+/* Hide clustrmaps widget */
 .clustrmaps-map-container{
   display:none !important;
 }
@@ -125,4 +138,28 @@ p a:hover {
 }
 a#clustrmaps-widget-v2, #clustrmaps-widget-v2 {
   display:none !important;
+}
+
+/* Additional ChatGPT-inspired styles for dark theme */
+.dark {
+  /* Custom scrollbar for dark theme */
+  scrollbar-color: hsl(var(--border)) hsl(var(--background));
+}
+
+.dark ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 3px;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground));
 }

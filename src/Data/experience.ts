@@ -4,6 +4,11 @@ const courses = [
     {
       title: "CSE 307: Mobile Computing and Applications",
       classSize: 131,
+      status: "Summer '25",
+    },
+    {
+      title: "CSE 307: Mobile Computing and Applications",
+      classSize: 131,
       status: "Spring '25",
     },
     {
@@ -73,16 +78,25 @@ const courses = [
           address:"(Remote) California, USA",
           duration: "August, 2024 - Present",
           responsibilities: [
-            `Developed an agentic workflow using LangChain and ChatGPT API to generate
+            `Developed an agentic workflow using ChatGPT API to generate
             evidence-centered personalized AI assessments in Workera platform.`,
+
             `Integrated new assessment modalities (Short Answer, Whiteboard, and Coding) into the
             Workera product suite by leveraging the ChatGPT API for dynamic item generation, response
             evaluation and MermaidJS for diagram rendering.`,
-            `Designed scoring rubric for short-answer and coding items, optimized to guide LLMs toward
+
+            `Designed core scoring rubric for short-answer and coding items, optimized to guide LLMs toward
             generating accurate, hallucination-resistant scoring outputs and targeted, context-aware
             feedback.`,
+
             `Lead the development and design of hyperpersonalized AI assessments for clients including
-            AT&T, Booz Allen Hamilton, MARS, Samsung India.`
+            AT&T, Booz Allen Hamilton, MARS, Samsung India.`,
+
+            `Designed and developed top-rated signature and core assessments, including Deep 
+            Learning, TensorFlow, and Machine Learning along with 
+            <a href="https://www.linkedin.com/in/kiankatan/">Kian Katanforoosh</a>.`
+
+            
           ],
         },
         {
@@ -124,7 +138,15 @@ const courses = [
           address:"(Remote) California, USA",
           duration: "April, 2025 - Present",
           responsibilities: [
-            `Developing in-game AI agents using LangChain to improve gaming experience`
+            `Developed in-game AI agents using LangChain and OpenAI models with character-specific personas that provide contextual NPC interactions that adapt based on player proximity and game state, and intereacts through structured dialogue systems and memory persistence`,
+
+            `Built AI-powered investment strategy parser using OpenAI GPT models to convert natural language trading rules into structured, executable strategies with automated market condition evaluation`,
+
+            `Integrated real-time cryptocurrency data services through CoinGecko API with MCP server architecture, enabling live price tracking, coin validation, and market analysis for trading decisions`,
+
+            `Developed full-stack DAO platform with smart contract governance system, proposal voting mechanisms, and member management using Solidity, Web3.py, and Ethereum blockchain integration`,
+
+            `Engineered automated token generation and deployment system for ERC-20 tokens with batch deployment capabilities, transaction validation, and blockchain interaction handling`,
           ],
         },
       ],
@@ -141,8 +163,7 @@ const courses = [
           duration: "December, 2023 - March, 2025",
           responsibilities: [
             `<b>Advisor:</b> <a href="https://www.nsaquib.org/https://www.nsaquib.org/">Nazmus Saquib</a>,PhD  `,
-            `<b>Research</b>: Approach to represent AI models through the embodied representation of
-              differential equations for enhancing model interpretability`
+            `<b>Research</b>: Approach to solve differential equations through the embodied representation of equations.`
           ],
         },
       ],
@@ -175,7 +196,7 @@ const courses = [
           duration: "April, 2024 - December, 2024",
           // courses: trainerCourses,
           responsibilities: [
-            `Delivering training on Machine Learning, Deep Learning, and Computer Vision domains.`,
+            `Delivered training on Machine Learning, Deep Learning, and Computer Vision domains.`,
             `Trainer of EDGE project ($295M Funding from World Bank), BDSET project ($5M Joint Funding 
             from Bangladesh and India) alongside core training programs`
           ],

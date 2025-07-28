@@ -101,6 +101,9 @@ export default function Home() {
                   dipon@workera.ai
                 </p>
                 <p className="text-gray-600 dark:text-slate-400">
+                  dipon@universalmachine.io
+                </p>
+                <p className="text-gray-600 dark:text-slate-400">
                   dipon.t@adjunct.eastdelta.edu.bd
                 </p>
               </div>

@@ -19,13 +19,6 @@ type paper = {
         },
         {
           title:
-            `<p><b>D. Talukder</b> \& M. M. Haque, (2023). 
-            <i>"A Machine Learning Approach to Clinically Diagnose Human Pyrexia Cases."</i> In Applied 
-            Intelligence for Industry 4.0 (pp. 90–103). Chapman and Hall/CRC eBooks.
-            <a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003256083-8/machine-learning-approach-clinically-diagnose-human-pyrexia-cases-dipon-talukder-md-mokammel-haque"> [Chapter Link] </a></p>`,
-        },
-        {
-          title:
           `<p><b>D. Talukder</b> \& F. Jahara, <i>”Real-Time Bangla Sign Language Detection with Sentence and Speech Generation,”</i> 2020
           23rd International Conference on Computer and Information Technology (ICCIT), 2020.
           <a href="https://ieeexplore.ieee.org/abstract/document/9392693/"> [Paper Link] </a></p>`,
@@ -47,18 +40,18 @@ type paper = {
         },
       ],
     },
-    // {
-    //   category: "Book Chapter",
-    //   papers: [
-    //     {
-    //       title:
-    //         `<p><b>D. Talukder</b> \& M. M. Haque, (2023). 
-    //         <i>"A Machine Learning Approach to Clinically Diagnose Human Pyrexia Cases."</i> In Applied 
-    //         Intelligence for Industry 4.0 (pp. 90–103). Chapman and Hall/CRC eBooks.
-    //         <a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003256083-8/machine-learning-approach-clinically-diagnose-human-pyrexia-cases-dipon-talukder-md-mokammel-haque"> [Chapter Link] </a></p>`,
-    //     },
-    //   ],
-    // },
+    {
+      category: "Book Chapter",
+      papers: [
+        {
+          title:
+            `<p><b>D. Talukder</b> \& M. M. Haque, (2023). 
+            <i>"A Machine Learning Approach to Clinically Diagnose Human Pyrexia Cases."</i> In Applied 
+            Intelligence for Industry 4.0 (pp. 90–103). Chapman and Hall/CRC eBooks.
+            <a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003256083-8/machine-learning-approach-clinically-diagnose-human-pyrexia-cases-dipon-talukder-md-mokammel-haque"> [Chapter Link] </a></p>`,
+        },
+      ],
+    },
     {
       category: "In Progress",
       papers: [
@@ -87,15 +80,8 @@ export const researchAgendaData = {
       <li>Human-Computer Interaction</li>
   </ul>
 
-    I am particularly interested in developing generalizable, reliable, and interpretable models. My aim to explore
-    context-aware vision models, semantic segmentation, feature extraction, object detection 
-    and localization, and edge detection techniques in computer vision, as well as both online
-    and offline approaches in reinforcement learning. I am also highly interested in multimodal AI, 
-    to improve contextual understanding of the large models. However, I am open to exploring any AI 
-    subfield that aligns with my goal of boosting machine vision techniques to increase their 
-    capabilities in medical diagnostics and autonomous systems.
+    I am particularly interested in developing generalizable, reliable, and interpretable computer vision models, with a focus on scene understanding, semantic segmentation, and physics-informed extraction techniques. My recent interested shifted towards achieving SOTA generalizablity, reliablity, and interpretablity of these vision models through mathematical approaches. Additionally, I aim to leverage multimodality to enhance contextual understanding. My research interest seeks to advance vision capabilities, particularly for applications in medical diagnostics, robotics and autonomous systems.
 
-  
   </div>`,
  
 }
