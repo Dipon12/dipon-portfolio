@@ -1,14 +1,13 @@
 export const Homedata = {
     firstTitle:"Research Agenda",
     researchAgenda: `
-    <p>My research agenda is dedicated to pioneering advanced AI models that are not only generalizable and interpretable, but also reliable enough for high-stakes applications. A key aim of my future research involves developing mathematically optimized AI models, with the broader objective of making them accessible for application in underserved regions globally. While my primary interest is healthcare, I am also very keen about robotics and other autonomous technologies. <br><br>
+    <p>My goal is to pioneer advanced AI models that are not only generalizable and interpretable, but also reliable enough for high-stakes applications. Coming from a third world country, a key aim of my future research involves developing mathematically optimized AI models, with the broader objective of making them accessible for application in underserved regions globally. While my primary interest is healthcare, I am also very keen about robotics and other autonomous technologies. <br><br>
         
-    To know more about my research interest, please visit <a href="/publications">Research Page.</a></p>`, 
+    To know more about my research interest, I humbly request to visit <a href="/publications">Research Page.</a></p>`, 
      
     secondTitle:'Short Biography',
     aboutMe: `
-    <p>I am a Senior Assessment Developer at <a href="https://workera.ai/">Workera.ai</a>, specializing in Data and AI. I have been a part of the Workera family from July 2021. During this time, I had the opportunity to work under the direct guidance of <a href="https://www.linkedin.com/in/kiankatan/">Kian Katanforoosh</a>, contributing to the design and development of signature AI assessments across key domains.
-         
+    <p>I am a Senior Assessment Developer at <a href="https://workera.ai/">Workera.ai</a>, specializing in Data and AI. I have been a part of the Workera family from July 2021. During this time, I had the opportunity to work under the direct guidance of <a href="https://www.linkedin.com/in/kiankatan/">Kian Katanforoosh</a>, contributing to the design and development of signature AI assessments across key domains.      
     
     From December 2023 to Fabruary 2025, I have collaborated with <a href="https://www.nsaquib.org/https://www.nsaquib.org/">Nazmus Saquib</a>, PhD from MIT Media Lab, as a Research Assistant, working on novel methods to solve differential equation through the embodied representation of differential equations to enhance model interpretability. 
     

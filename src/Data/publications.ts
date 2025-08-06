@@ -71,16 +71,16 @@ type paper = {
   ];
 export const researchAgendaData = {
   title:"Research Interest",
-  description: `<div class="">My research interest falls in the macro-areas of:</div>
+  description: `<div class="">Macro areas that interest me the most are:</div>
   <ul class="list-disc list-inside space-y-2 my-4 ml-5">
-      <li>Machine Learning</li>
-      <li>Computer Vision</li>
+      <li>Scene Understanding</li>
+      <li>Visual Reasoning</li>
       <li>Multimodal AI</li>
-      <li>Reinforcement Learning</li>
+      <li>Explainable and Trustworthy AI</li>
       <li>Human-Computer Interaction</li>
   </ul>
 
-    I am particularly interested in developing generalizable, reliable, and interpretable computer vision models, with a focus on scene understanding, semantic segmentation, and physics-informed extraction techniques. My recent interested shifted towards achieving SOTA generalizablity, reliablity, and interpretablity of these vision models through mathematical approaches. Additionally, I aim to leverage multimodality to enhance contextual understanding. My research interest seeks to advance vision capabilities, particularly for applications in medical diagnostics, robotics and autonomous systems.
+    My recent interested shifted towards achieving generalizablity, reliablity, and interpretablity of the vision models through mathematical approaches. Additionally, I aim to leverage multimodality to enhance contextual understanding of the vision systems. My research interest seeks to advance vision capabilities, particularly for applications in medical diagnostics, robotics and autonomous systems.
 
   </div>`,
  
